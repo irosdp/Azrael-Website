@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en" data-base=".">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Azrael Morathane | Official Artist Hub</title>
+  <meta name="description" content="Official artist hub for Azrael Morathane, gothic anime metal releases, videos, and music links.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Azrael Morathane">
+  <meta property="og:title" content="Azrael Morathane | Official Artist Hub">
+  <meta property="og:description" content="Official artist hub for Azrael Morathane, gothic anime metal releases, videos, and music links.">
+  <meta property="og:image" content="assets/images/brand/azrael-stage-hero.png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main" data-i18n="common.skip">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html" aria-label="Azrael Morathane home">
+        <strong>Azrael Morathane</strong>
+        <span data-i18n="common.tagline">Gothic anime metal</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html" aria-current="page" data-i18n="nav.home">Home</a>
+        <a href="music.html" data-i18n="nav.music">Music</a>
+        <a href="about.html" data-i18n="nav.about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <img class="hero-bg" src="assets/images/brand/azrael-stage-hero.png" alt="" aria-hidden="true">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="home.heroEyebrow">Official artist hub</p>
+          <h1>Azrael Morathane</h1>
+          <p data-i18n="home.heroCopy">Come closer. Azrael has been hiding little curses inside heavy guitars, velvet choruses, and pale pink moonlight.</p>
+        </div>
+        <aside class="hero-release" id="hero-release" aria-label="Latest release" data-error-target></aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" data-i18n="home.latestEyebrow">Latest release</p>
+          <h2 data-i18n="home.latestTitle">New from the altar</h2>
+        </div>
+        <article class="feature-card" id="latest-release-card" aria-live="polite"></article>
+      </div>
+    </section>
+
+    <section class="section tight">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" data-i18n="home.musicEyebrow">Music</p>
+          <h2 data-i18n="home.musicTitle">Selected songs</h2>
+          <p data-i18n="home.musicCopy">Pick a door, darling. Every song has a different bite, and Azrael promises only some of them are dangerous.</p>
+        </div>
+        <div class="song-grid" id="home-music-grid"></div>
+      </div>
+    </section>
+
+    <section class="section tight">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" data-i18n="home.watchEyebrow">Watch</p>
+          <h2 data-i18n="home.watchTitle">Video</h2>
+        </div>
+        <div class="video-frame" id="video-frame" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section tight">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" data-i18n="home.connectEyebrow">Connect</p>
+          <h2 data-i18n="home.connectTitle">Socials</h2>
+        </div>
+        <div class="social-row" data-social-links></div>
+      </div>
+    </section>
+
+    <section class="section follow-band" id="follow">
+      <div class="container follow-inner">
+        <div>
+          <p class="eyebrow" data-i18n="newsletter.eyebrow">Follow</p>
+          <h2 data-i18n="newsletter.title">Stay close to the next release</h2>
+          <p data-i18n="newsletter.copy">Leave your address at the gate. Azrael will send release whispers, video drops, and tiny midnight warnings.</p>
+        </div>
+        <form class="mail-placeholder" id="newsletter-form" aria-label="Newsletter signup">
+          <input type="email" placeholder="email@example.com" aria-label="Email address" autocomplete="email" required data-i18n-attr="placeholder:newsletter.placeholder;aria-label:newsletter.emailLabel">
+          <input class="hp-field" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button type="submit" data-i18n="newsletter.button">Join the list</button>
+          <p class="form-note" data-newsletter-status aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© 2026 Azrael Morathane</span>
+      <div class="social-row" data-social-links></div>
+    </div>
+  </footer>
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>

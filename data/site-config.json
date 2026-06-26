@@ -1,0 +1,38 @@
+{
+    "artistName":  "Azrael Morathane",
+    "siteUrl":  "https://your-github-username.github.io/azrael-morathane/",
+    "latestReleaseSlug":  "tokikase-kaitai",
+    "videoEmbedUrl":  "https://youtu.be/6FGOdreSRGM?si=HPTIAE9ZiUp4Z-GG",
+    "newsletter":  {
+                       "endpoint":  "https://script.google.com/macros/s/AKfycbw6EQjXu3EqapEK761UNlkCNjlNXic5YmYRid1rWcc7ERppQ5hj75mY96gGX9W--TZq/exec",
+                       "emailFieldName":  "email",
+                       "successMessage":  "Thank you. Azrael has received your address.",
+                       "disabledMessage":  ""
+                   },
+    "socialLinks":  [
+                        {
+                            "label":  "Instagram",
+                            "url":  "https://www.instagram.com/azraelmorathane/"
+                        },
+                        {
+                            "label":  "Facebook",
+                            "url":  "https://www.facebook.com/AzraelMorathane"
+                        },
+                        {
+                            "label":  "X",
+                            "url":  "https://x.com/AzraelMorathane"
+                        },
+                        {
+                            "label":  "YouTube",
+                            "url":  "https://www.youtube.com/@AzraelMorathane"
+                        },
+                        {
+                            "label":  "YouTube Music",
+                            "url":  "https://music.youtube.com/@azraelmorathane"
+                        },
+                        {
+                            "label":  "TikTok",
+                            "url":  "https://www.tiktok.com/@azrael.morathane"
+                        }
+                    ]
+}

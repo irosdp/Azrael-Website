@@ -1,0 +1,698 @@
+{
+    "en":  {
+               "label":  "English",
+               "locale":  "en-US",
+               "common":  {
+                              "skip":  "Skip to content",
+                              "tagline":  "Gothic anime metal"
+                          },
+               "nav":  {
+                           "home":  "Home",
+                           "music":  "Music",
+                           "about":  "About"
+                       },
+               "lang":  {
+                            "button":  "Language",
+                            "promptTitle":  "Choose your language",
+                            "promptCopy":  "Your browser looks like it may prefer {language}. Stay in English or open Azrael\u0027s gate in that language.",
+                            "english":  "English"
+                        },
+               "home":  {
+                            "heroEyebrow":  "Official artist hub",
+                            "heroCopy":  "Come closer. Azrael has been hiding little curses inside heavy guitars, velvet choruses, and pale pink moonlight.",
+                            "latestEyebrow":  "Latest release",
+                            "latestTitle":  "New from the altar",
+                            "musicEyebrow":  "Music",
+                            "musicTitle":  "Selected songs",
+                            "musicCopy":  "Pick a door, darling. Every song has a different bite, and Azrael promises only some of them are dangerous.",
+                            "watchEyebrow":  "Watch",
+                            "watchTitle":  "Video",
+                            "connectEyebrow":  "Connect",
+                            "connectTitle":  "Socials",
+                            "listenWatch":  "Listen / Watch",
+                            "allMusic":  "All music",
+                            "linksComingSoon":  "Links coming soon"
+                        },
+               "musicPage":  {
+                                 "eyebrow":  "Music",
+                                 "title":  "All releases",
+                                 "copy":  "Choose the wound that sings back. Azrael keeps every door open here, even the ones with teeth."
+                             },
+               "about":  {
+                             "eyebrow":  "About",
+                             "short":  "A modern gothic anime metal artist identity: ornate but sharp, romantic but heavy, built for midnight headphones and stage-sized impact.",
+                             "body1":  "Azrael Morathane exists between cathedral shadow and neon afterimage. The sound blends melodic metal, gothic atmosphere, electronic pressure, and anime-scale vocal drama without leaning into nostalgia.",
+                             "body2":  "The project language is black, deep burgundy, and pale pink: elegant, severe, and emotionally direct. Each release is treated as both a song and a visual entry in the same dark romantic world."
+                         },
+               "newsletter":  {
+                                  "eyebrow":  "Follow",
+                                  "title":  "Stay close to the next release",
+                                  "copy":  "Leave your address at the gate. Azrael will send release whispers, video drops, and tiny midnight warnings.",
+                                  "placeholder":  "email@example.com",
+                                  "emailLabel":  "Email address",
+                                  "button":  "Join the list",
+                                  "sending":  "Sending...",
+                                  "success":  "Thank you. Azrael has received your address.",
+                                  "error":  "The gate did not open. Please try again later.",
+                                  "disabled":  "The list opens soon."
+                              },
+               "footer":  {
+                              "label":  "Morathane Records"
+                          },
+               "meta":  {
+                            "homeTitle":  "Azrael Morathane | Official Artist Hub",
+                            "homeDescription":  "Official artist hub for Azrael Morathane, gothic anime metal releases, videos, and music links.",
+                            "musicTitle":  "Music | Azrael Morathane",
+                            "musicDescription":  "Browse Azrael Morathane releases, covers, song pages, and official music links.",
+                            "aboutTitle":  "About | Azrael Morathane",
+                            "aboutDescription":  "Azrael Morathane is a dark gothic anime metal artist project built around cinematic vocals, brutal guitars, and elegant visual storytelling."
+                        },
+               "songDescriptions":  {
+                                        "tokikase-kaitai":  "A gothic anime metal strike about breaking time-bound chains, built from razor guitars, cinematic synth pressure, and a vocal line that turns captivity into release.",
+                                        "tsukikage-ni-oborete":  "Moonlit hardwave metal with a cold romantic glow, pairing nocturnal electronics with Azrael Morathane\u0027s sharp-edged melodic drama.",
+                                        "rousoku-no-hai-ni-naru-made":  "A slow-burn gothic metal elegy that smolders from candlelight intimacy into a full, ash-bright wall of sound.",
+                                        "kurobeni-nafuda-wo-hagasu":  "A black-and-crimson identity purge in metal form: elegant, violent, and polished with a chorus that feels like tearing a label from the skin.",
+                                        "kiga-no-ori":  "Future rave J-metal locked inside a gilded cage: aggressive, hungry, and designed for maximum night-stage impact.",
+                                        "sono-me-kaeshite":  "A piercing demand wrapped in gothic anime metal, balancing dramatic vocal force with a brutal, modern low-end attack.",
+                                        "tomodachi-no-ondo":  "A fragile heat under the armor: melodic metal-pop tension shaped around distance, tenderness, and the unbearable precision of friendship.",
+                                        "ori-no-soto-wa-anata":  "A cinematic closing wound for the cage-era songs, reaching toward someone beyond the bars with beauty, fury, and restraint.",
+                                        "timecard-wo-kanda":  "Azrael bites through the clock-in spell with a little smile, turning workday chains into sparks, teeth, and midnight guitar light.",
+                                        "heikou-meiro":  "A parallel underworld road opens under pale pink moonlight, and Azrael invites you to walk beside her before the gate closes.",
+                                        "nihaime-no-kuuseki":  "A second glass waits for someone who may never arrive; Azrael makes the empty chair feel dangerously warm.",
+                                        "hitokuchi-dake-kuchizukete":  "One bite, one kiss, one tiny ruin. A sweet gothic lure with enough crimson on its lips to leave a mark.",
+                                        "dokuringo-no-kuchizuke":  "A poisonous apple kiss, polished like a fairy tale blade. Azrael makes the warning label sound like an invitation.",
+                                        "yoru-ni-okurimono-wo":  "A gift for the night: ribbon, shadow, and a chorus that waits politely until your guard is down.",
+                                        "kesshoku-no-hoshitsu":  "Beauty routine as battle ritual: pale pink gloss, burgundy pulse, and a mischievous little bite of metal glamour.",
+                                        "esa-janai-namae":  "Not bait, but a name. Azrael turns the final word into a collar-breaker, soft enough to whisper and sharp enough to draw blood."
+                                    }
+           },
+    "zh-TW":  {
+                  "label":  "繁體中文",
+                  "locale":  "zh-TW",
+                  "common":  {
+                                 "skip":  "跳到主要內容",
+                                 "tagline":  "哥德動漫金屬"
+                             },
+                  "nav":  {
+                              "home":  "首頁",
+                              "music":  "音樂",
+                              "about":  "關於"
+                          },
+                  "lang":  {
+                               "button":  "語言",
+                               "promptTitle":  "選擇你的語言",
+                               "promptCopy":  "你的瀏覽器看起來偏好 {language}。可以留下英文，也可以用這個語言打開 Azrael 的門。",
+                               "english":  "英文"
+                           },
+                  "home":  {
+                               "heroEyebrow":  "官方藝術家中心",
+                               "heroCopy":  "靠近一點。Azrael 把小小的詛咒藏進沉重吉他、絲絨副歌，還有淡粉色月光裡。",
+                               "latestEyebrow":  "最新發售",
+                               "latestTitle":  "祭壇傳來的新聲音",
+                               "musicEyebrow":  "音樂",
+                               "musicTitle":  "精選歌曲",
+                               "musicCopy":  "選一扇門吧，親愛的。每首歌咬人的方式都不一樣，Azrael 只保證有幾首真的很危險。",
+                               "watchEyebrow":  "觀看",
+                               "watchTitle":  "影片",
+                               "connectEyebrow":  "連結",
+                               "connectTitle":  "社群",
+                               "listenWatch":  "聆聽 / 觀看",
+                               "allMusic":  "全部音樂",
+                               "linksComingSoon":  "連結即將公開"
+                           },
+                  "musicPage":  {
+                                    "eyebrow":  "音樂",
+                                    "title":  "全部發行",
+                                    "copy":  "挑一個會回唱的傷口吧。Azrael 把每一扇門都留在這裡，就算有些門長著牙齒。"
+                                },
+                  "about":  {
+                                "eyebrow":  "關於",
+                                "short":  "Azrael Morathane 是現代哥德動漫金屬的藝術家企劃：華麗但銳利，浪漫但沉重，適合午夜耳機，也適合舞台般巨大的衝擊。",
+                                "body1":  "Azrael Morathane 站在大教堂陰影與霓虹殘影之間。聲音混合旋律金屬、哥德氛圍、電子壓迫感，以及動漫尺度的戲劇性歌聲。",
+                                "body2":  "她的世界以黑、深酒紅、淡粉色構成：優雅、嚴厲，情感直接。每一次發行都是歌曲，也是同一個黑暗浪漫世界裡的視覺入口。"
+                            },
+                  "newsletter":  {
+                                     "eyebrow":  "Follow",
+                                     "title":  "靠近下一次發售",
+                                     "copy":  "把你的地址留在門口。Azrael 會送來發售耳語、影片通知，和一點點午夜警告。",
+                                     "placeholder":  "email@example.com",
+                                     "emailLabel":  "電子信箱",
+                                     "button":  "加入名單",
+                                     "sending":  "送出中...",
+                                     "success":  "謝謝，Azrael 已經收到你的信箱。",
+                                     "error":  "門暫時沒有打開，請稍後再試。",
+                                     "disabled":  "名單即將開放。"
+                                 },
+                  "footer":  {
+                                 "label":  "Morathane Records"
+                             },
+                  "meta":  {
+                               "homeTitle":  "Azrael Morathane | 官方藝術家中心",
+                               "homeDescription":  "Azrael Morathane 官方藝術家中心，收錄哥德動漫金屬發行、影片與音樂平台連結。",
+                               "musicTitle":  "Music | Azrael Morathane",
+                               "musicDescription":  "瀏覽 Azrael Morathane 的發行、封面、歌曲頁與官方音樂連結。",
+                               "aboutTitle":  "About | Azrael Morathane",
+                               "aboutDescription":  "Azrael Morathane 是黑暗哥德動漫金屬藝術家企劃，以電影感歌聲、重型吉他與優雅視覺敘事打造。"
+                           },
+                  "songDescriptions":  {
+                                           "tokikase-kaitai":  "一首關於解開時間鎖鏈的哥德動漫金屬衝擊，銳利吉他、電影感合成器壓力，讓囚禁感在歌聲裡變成釋放。",
+                                           "tsukikage-ni-oborete":  "冷冽浪漫的月光 hardwave metal，夜色電子聲響與 Azrael Morathane 銳利的旋律戲劇感交纏。",
+                                           "rousoku-no-hai-ni-naru-made":  "慢慢燃燒的哥德金屬輓歌，從燭光般親密的低語，一路燒成灰白發亮的音牆。",
+                                           "kurobeni-nafuda-wo-hagasu":  "黑與紅的身份剝離，以金屬形式撕開標籤；優雅、暴烈，副歌像把名字從皮膚上扯下來。",
+                                           "kiga-no-ori":  "被鎖進鍍金牢籠的 future rave J-metal，飢餓、攻擊性強，為夜晚舞台的最大衝擊而生。",
+                                           "sono-me-kaeshite":  "一句刺穿人的索回，被哥德動漫金屬包裹；戲劇性歌聲與兇狠低頻保持危險平衡。",
+                                           "tomodachi-no-ondo":  "盔甲底下的一點脆弱溫度，用旋律金屬流行的張力描出距離、溫柔，以及友情精準到殘酷的痛。",
+                                           "ori-no-soto-wa-anata":  "籠之篇章的電影感收束，朝欄杆之外的那個人伸手，帶著美、怒意與克制。",
+                                           "timecard-wo-kanda":  "Azrael 帶著一點笑意咬碎打卡的咒語，把工作日的鎖鏈變成火花、齒痕與午夜吉他光。",
+                                           "heikou-meiro":  "淡粉月光下開啟的平行冥路，Azrael 邀你在門關上以前並肩走一段。",
+                                           "nihaime-no-kuuseki":  "第二杯酒等著也許不會回來的人；Azrael 讓那張空椅子變得危險地溫熱。",
+                                           "hitokuchi-dake-kuchizukete":  "一口、一吻、一點小小毀滅。甜美的哥德誘惑，唇邊有足以留下痕跡的緋紅。",
+                                           "dokuringo-no-kuchizuke":  "毒林檎之吻像童話裡打磨過的刀。Azrael 讓警告標籤聽起來像邀請。",
+                                           "yoru-ni-okurimono-wo":  "獻給夜晚的禮物：緞帶、陰影，以及一段禮貌等待你放下戒心的副歌。",
+                                           "kesshoku-no-hoshitsu":  "把保養儀式變成戰鬥儀式：淡粉光澤、酒紅脈搏，還有一口淘氣的金屬魅力。",
+                                           "esa-janai-namae":  "不是餌，而是名字。Azrael 把最後一句唱成能扯斷項圈的詞，輕得能耳語，利得能見血。"
+                                       }
+              },
+    "ja":  {
+               "label":  "日本語",
+               "locale":  "ja-JP",
+               "common":  {
+                              "skip":  "本文へ移動",
+                              "tagline":  "ゴシック・アニメ・メタル"
+                          },
+               "nav":  {
+                           "home":  "Home",
+                           "music":  "Music",
+                           "about":  "概要"
+                       },
+               "lang":  {
+                            "button":  "Language",
+                            "promptTitle":  "言語を選択",
+                            "promptCopy":  "ブラウザは {language} を優先しているようです。英語のままでも、この言語で Azrael の扉を開いても構いません。",
+                            "english":  "英語"
+                        },
+               "home":  {
+                            "heroEyebrow":  "公式アーティストハブ",
+                            "heroCopy":  "もっと近くへ。Azrael は重いギター、ベルベットのコーラス、淡いピンクの月光に小さな呪いを隠しています。",
+                            "latestEyebrow":  "最新リリース",
+                            "latestTitle":  "祭壇から届いた新作",
+                            "musicEyebrow":  "音楽",
+                            "musicTitle":  "おすすめ曲",
+                            "musicCopy":  "扉を選んで、ダーリン。曲ごとに違う噛み跡があり、Azrael が危険だと約束するのはそのうちの少しだけ。",
+                            "watchEyebrow":  "視聴",
+                            "watchTitle":  "映像",
+                            "connectEyebrow":  "つながる",
+                            "connectTitle":  "SNS",
+                            "listenWatch":  "聴く / 観る",
+                            "allMusic":  "すべての音楽",
+                            "linksComingSoon":  "リンクは近日公開"
+                        },
+               "musicPage":  {
+                                 "eyebrow":  "音楽",
+                                 "title":  "すべてのリリース",
+                                 "copy":  "歌い返してくる傷を選んで。Azrael はすべての扉をここに開けておきます。たとえ歯を持つ扉でも。"
+                             },
+               "about":  {
+                             "eyebrow":  "概要",
+                             "short":  "Azrael Morathane は現代的なゴシック・アニメ・メタルのアーティスト像。装飾的で鋭く、ロマンティックで重く、深夜のヘッドホンにも大きなステージにも似合います。",
+                             "body1":  "Azrael Morathane は大聖堂の影とネオンの残像のあいだに存在します。メロディックメタル、ゴシックな空気、電子的な圧力、アニメ的なスケールの歌声を混ぜ合わせます。",
+                             "body2":  "黒、深いバーガンディ、淡いピンクがこの世界の言葉。優雅で厳しく、感情にまっすぐです。各リリースは曲であり、同じ暗いロマンティックな世界への視覚的な入口でもあります。"
+                         },
+               "newsletter":  {
+                                  "eyebrow":  "Follow",
+                                  "title":  "次のリリースのそばにいて",
+                                  "copy":  "門にあなたのアドレスを残してください。Azrael がリリースの囁き、動画のお知らせ、小さな真夜中の警告を送ります。",
+                                  "placeholder":  "email@example.com",
+                                  "emailLabel":  "メールアドレス",
+                                  "button":  "リストに参加",
+                                  "sending":  "送信中...",
+                                  "success":  "ありがとう。Azrael があなたのアドレスを受け取りました。",
+                                  "error":  "門が開きませんでした。後でもう一度試してください。",
+                                  "disabled":  "リストは近日公開です。"
+                              },
+               "footer":  {
+                              "label":  "Morathane Records"
+                          },
+               "meta":  {
+                            "homeTitle":  "Azrael Morathane | Official Artist Hub",
+                            "homeDescription":  "Azrael Morathane 公式アーティストハブ。ゴシック・アニメ・メタルのリリース、動画、音楽リンクを掲載。",
+                            "musicTitle":  "Music | Azrael Morathane",
+                            "musicDescription":  "Azrael Morathane のリリース、カバー、楽曲ページ、公式音楽リンクを閲覧できます。",
+                            "aboutTitle":  "About | Azrael Morathane",
+                            "aboutDescription":  "Azrael Morathane は映画的な歌声、重いギター、優雅なビジュアルストーリーで構成されたダーク・ゴシック・アニメ・メタル企画です。"
+                        },
+               "songDescriptions":  {
+                                        "tokikase-kaitai":  "時間に縛られた鎖を断ち切るゴシック・アニメ・メタル。鋭いギターと映画的なシンセの圧力が、囚われを解放へ変えます。",
+                                        "tsukikage-ni-oborete":  "冷たいロマンを帯びた月明かりの hardwave metal。夜の電子音と Azrael Morathane の鋭い旋律ドラマが絡み合います。",
+                                        "rousoku-no-hai-ni-naru-made":  "蝋燭の親密さから灰色に輝く音の壁へ燃え広がる、スローバーンのゴシックメタル挽歌。",
+                                        "kurobeni-nafuda-wo-hagasu":  "黒と紅のアイデンティティ剥離。優雅で暴力的な金属音が、肌から名札を剥がすようなコーラスへ向かいます。",
+                                        "kiga-no-ori":  "金色の檻に閉じ込められた future rave J-metal。攻撃的で飢えていて、夜のステージに最大の衝撃を残します。",
+                                        "sono-me-kaeshite":  "突き刺すような要求をゴシック・アニメ・メタルで包み、劇的な歌声と重い低音が危険な均衡を保ちます。",
+                                        "tomodachi-no-ondo":  "鎧の下に残る壊れやすい熱。距離、優しさ、友情の痛いほど正確な温度を描きます。",
+                                        "ori-no-soto-wa-anata":  "檻の時代を締めくくる映画的な傷跡。柵の外の誰かへ、美しさと怒りと抑制を持って手を伸ばします。",
+                                        "timecard-wo-kanda":  "Azrael は少し笑いながらタイムカードの呪いを噛み砕き、労働日の鎖を火花と歯形と真夜中のギター光へ変えます。",
+                                        "heikou-meiro":  "淡いピンクの月光の下で開く並行冥路。門が閉じる前に、Azrael が隣を歩くよう誘います。",
+                                        "nihaime-no-kuuseki":  "二杯目は戻らないかもしれない誰かを待っている。Azrael は空席を危険なほど温かくします。",
+                                        "hitokuchi-dake-kuchizukete":  "一口、一つのキス、一つの小さな破滅。甘いゴシックの誘いは、唇に跡を残す紅を含んでいます。",
+                                        "dokuringo-no-kuchizuke":  "毒林檎のキスは童話の刃のように磨かれています。Azrael は警告の札を招待状のように響かせます。",
+                                        "yoru-ni-okurimono-wo":  "夜への贈り物。リボン、影、そして警戒が解けるまで礼儀正しく待つコーラス。",
+                                        "kesshoku-no-hoshitsu":  "美容の儀式を戦闘儀式へ。淡いピンクの艶、バーガンディの鼓動、少し悪戯なメタルの噛み跡。",
+                                        "esa-janai-namae":  "餌ではなく名前。Azrael は最後の言葉を首輪を断つ刃に変えます。囁けるほど柔らかく、血を引くほど鋭く。"
+                                    }
+           },
+    "es":  {
+               "label":  "Español",
+               "locale":  "es-ES",
+               "common":  {
+                              "skip":  "Saltar al contenido",
+                              "tagline":  "Metal gótico anime"
+                          },
+               "nav":  {
+                           "home":  "Inicio",
+                           "music":  "Música",
+                           "about":  "Acerca de"
+                       },
+               "lang":  {
+                            "button":  "Idioma",
+                            "promptTitle":  "Elige tu idioma",
+                            "promptCopy":  "Tu navegador parece preferir {language}. Puedes quedarte en inglés o abrir la puerta de Azrael en ese idioma.",
+                            "english":  "inglés"
+                        },
+               "home":  {
+                            "heroEyebrow":  "Centro oficial",
+                            "heroCopy":  "Acércate. Azrael escondió pequeñas maldiciones entre guitarras pesadas, coros de terciopelo y luz de luna rosa pálido.",
+                            "latestEyebrow":  "Último lanzamiento",
+                            "latestTitle":  "Nuevo desde el altar",
+                            "musicEyebrow":  "Música",
+                            "musicTitle":  "Canciones destacadas",
+                            "musicCopy":  "Elige una puerta, cariño. Cada canción muerde de una forma distinta, y Azrael solo promete que algunas son peligrosas.",
+                            "watchEyebrow":  "Ver",
+                            "watchTitle":  "Video",
+                            "connectEyebrow":  "Conectar",
+                            "connectTitle":  "Redes",
+                            "listenWatch":  "Escuchar / Ver",
+                            "allMusic":  "Toda la música",
+                            "linksComingSoon":  "Enlaces próximamente"
+                        },
+               "musicPage":  {
+                                 "eyebrow":  "Música",
+                                 "title":  "Todos los lanzamientos",
+                                 "copy":  "Elige la herida que te canta de vuelta. Azrael deja todas las puertas abiertas aquí, incluso las que tienen dientes."
+                             },
+               "about":  {
+                             "eyebrow":  "Acerca de",
+                             "short":  "Azrael Morathane es una identidad moderna de metal gótico anime: ornamentada pero afilada, romántica pero pesada, hecha para auriculares de medianoche y escenarios enormes.",
+                             "body1":  "Azrael Morathane existe entre la sombra de una catedral y el resplandor de neón. Su sonido mezcla metal melódico, atmósfera gótica, presión electrónica y drama vocal de escala anime.",
+                             "body2":  "Su lenguaje visual es negro, borgoña profundo y rosa pálido: elegante, severo y emocionalmente directo. Cada lanzamiento funciona como canción y como entrada visual al mismo mundo oscuro y romántico."
+                         },
+               "newsletter":  {
+                                  "eyebrow":  "Follow",
+                                  "title":  "Quédate cerca del próximo lanzamiento",
+                                  "copy":  "Deja tu dirección en la puerta. Azrael enviará susurros de lanzamiento, avisos de video y pequeñas advertencias de medianoche.",
+                                  "placeholder":  "email@example.com",
+                                  "emailLabel":  "Correo electrónico",
+                                  "button":  "Unirme",
+                                  "sending":  "Enviando...",
+                                  "success":  "Gracias. Azrael recibió tu dirección.",
+                                  "error":  "La puerta no se abrió. Inténtalo de nuevo más tarde.",
+                                  "disabled":  "La lista abrirá pronto."
+                              },
+               "footer":  {
+                              "label":  "Morathane Records"
+                          },
+               "meta":  {
+                            "homeTitle":  "Azrael Morathane | Centro oficial",
+                            "homeDescription":  "Centro oficial de Azrael Morathane con lanzamientos de metal gótico anime, videos y enlaces de música.",
+                            "musicTitle":  "Música | Azrael Morathane",
+                            "musicDescription":  "Explora lanzamientos, portadas, páginas de canciones y enlaces oficiales de Azrael Morathane.",
+                            "aboutTitle":  "About | Azrael Morathane",
+                            "aboutDescription":  "Azrael Morathane es un proyecto de metal gótico anime oscuro con voces cinematográficas, guitarras brutales y narrativa visual elegante."
+                        },
+               "songDescriptions":  {
+                                        "tokikase-kaitai":  "Un golpe de metal gótico anime sobre romper cadenas atadas al tiempo, con guitarras afiladas, presión cinemática y una voz que convierte cautiverio en liberación.",
+                                        "tsukikage-ni-oborete":  "Hardwave metal iluminado por luna fría, donde la electrónica nocturna se une al drama melódico de Azrael Morathane.",
+                                        "rousoku-no-hai-ni-naru-made":  "Una elegía gótica de combustión lenta que pasa de la intimidad de una vela a un muro de sonido brillante como ceniza.",
+                                        "kurobeni-nafuda-wo-hagasu":  "Una purga de identidad en negro y carmesí: elegante, violenta, con un coro que parece arrancar una etiqueta de la piel.",
+                                        "kiga-no-ori":  "Future rave J-metal encerrado en una jaula dorada: agresivo, hambriento y creado para impactar en la noche.",
+                                        "sono-me-kaeshite":  "Una exigencia punzante envuelta en metal gótico anime, con voz dramática y un golpe grave moderno y brutal.",
+                                        "tomodachi-no-ondo":  "Un calor frágil bajo la armadura; tensión metal-pop sobre distancia, ternura y la precisión insoportable de la amistad.",
+                                        "ori-no-soto-wa-anata":  "Una herida cinematográfica para cerrar la era de la jaula, tendiendo la mano hacia alguien al otro lado de los barrotes con belleza, furia y control.",
+                                        "timecard-wo-kanda":  "Azrael muerde el hechizo de fichar con una pequeña sonrisa y convierte las cadenas laborales en chispas, dientes y luz de guitarra nocturna.",
+                                        "heikou-meiro":  "Un camino paralelo al inframundo se abre bajo luna rosa pálido, y Azrael te invita a caminar a su lado antes de que la puerta cierre.",
+                                        "nihaime-no-kuuseki":  "Una segunda copa espera a alguien que quizá nunca llegue; Azrael vuelve peligrosamente cálida la silla vacía.",
+                                        "hitokuchi-dake-kuchizukete":  "Un bocado, un beso, una pequeña ruina. Un señuelo gótico dulce con suficiente carmesí para dejar marca.",
+                                        "dokuringo-no-kuchizuke":  "Un beso de manzana venenosa, pulido como cuchilla de cuento. Azrael hace que la advertencia suene a invitación.",
+                                        "yoru-ni-okurimono-wo":  "Un regalo para la noche: cinta, sombra y un coro que espera con cortesía hasta que bajes la guardia.",
+                                        "kesshoku-no-hoshitsu":  "La rutina de belleza como ritual de batalla: brillo rosa pálido, pulso borgoña y una pequeña mordida de glamour metalero.",
+                                        "esa-janai-namae":  "No es cebo, es un nombre. Azrael convierte la palabra final en algo que rompe collares, suave para susurrar y filoso para sangrar."
+                                    }
+           },
+    "pt-BR":  {
+                  "label":  "Português (Brasil)",
+                  "locale":  "pt-BR",
+                  "common":  {
+                                 "skip":  "Pular para o conteúdo",
+                                 "tagline":  "Metal gótico anime"
+                             },
+                  "nav":  {
+                              "home":  "Início",
+                              "music":  "Música",
+                              "about":  "Sobre"
+                          },
+                  "lang":  {
+                               "button":  "Idioma",
+                               "promptTitle":  "Escolha seu idioma",
+                               "promptCopy":  "Seu navegador parece preferir {language}. Você pode ficar em inglês ou abrir o portão de Azrael nesse idioma.",
+                               "english":  "inglês"
+                           },
+                  "home":  {
+                               "heroEyebrow":  "Hub oficial",
+                               "heroCopy":  "Chegue mais perto. Azrael escondeu pequenas maldições em guitarras pesadas, refrões de veludo e luar rosa pálido.",
+                               "latestEyebrow":  "Lançamento mais recente",
+                               "latestTitle":  "Novo do altar",
+                               "musicEyebrow":  "Música",
+                               "musicTitle":  "Músicas selecionadas",
+                               "musicCopy":  "Escolha uma porta, meu bem. Cada música morde de um jeito diferente, e Azrael só promete que algumas são perigosas.",
+                               "watchEyebrow":  "Assistir",
+                               "watchTitle":  "Vídeo",
+                               "connectEyebrow":  "Conectar",
+                               "connectTitle":  "Redes",
+                               "listenWatch":  "Ouvir / Assistir",
+                               "allMusic":  "Todas as músicas",
+                               "linksComingSoon":  "Links em breve"
+                           },
+                  "musicPage":  {
+                                    "eyebrow":  "Música",
+                                    "title":  "Todos os lançamentos",
+                                    "copy":  "Escolha a ferida que canta de volta. Azrael deixa todas as portas abertas aqui, até as que têm dentes."
+                                },
+                  "about":  {
+                                "eyebrow":  "Sobre",
+                                "short":  "Azrael Morathane é uma identidade moderna de metal gótico anime: ornamentada mas afiada, romântica mas pesada, feita para fones à meia-noite e impacto de palco.",
+                                "body1":  "Azrael Morathane existe entre a sombra de uma catedral e o pós-brilho do neon. O som mistura metal melódico, atmosfera gótica, pressão eletrônica e drama vocal em escala anime.",
+                                "body2":  "A linguagem do projeto é preto, borgonha profundo e rosa pálido: elegante, severa e emocionalmente direta. Cada lançamento é uma música e uma entrada visual no mesmo mundo sombrio e romântico."
+                            },
+                  "newsletter":  {
+                                     "eyebrow":  "Follow",
+                                     "title":  "Fique perto do próximo lançamento",
+                                     "copy":  "Deixe seu endereço no portão. Azrael enviará sussurros de lançamento, avisos de vídeo e pequenos alertas da meia-noite.",
+                                     "placeholder":  "email@example.com",
+                                     "emailLabel":  "E-mail",
+                                     "button":  "Entrar na lista",
+                                     "sending":  "Enviando...",
+                                     "success":  "Obrigada. Azrael recebeu seu endereço.",
+                                     "error":  "O portão não abriu. Tente novamente mais tarde.",
+                                     "disabled":  "A lista abre em breve."
+                                 },
+                  "footer":  {
+                                 "label":  "Morathane Records"
+                             },
+                  "meta":  {
+                               "homeTitle":  "Azrael Morathane | Hub oficial",
+                               "homeDescription":  "Hub oficial de Azrael Morathane com lançamentos de metal gótico anime, vídeos e links de música.",
+                               "musicTitle":  "Música | Azrael Morathane",
+                               "musicDescription":  "Veja lançamentos, capas, páginas de músicas e links oficiais de Azrael Morathane.",
+                               "aboutTitle":  "About | Azrael Morathane",
+                               "aboutDescription":  "Azrael Morathane é um projeto de metal gótico anime sombrio com vocais cinematográficos, guitarras brutais e narrativa visual elegante."
+                           },
+                  "songDescriptions":  {
+                                           "tokikase-kaitai":  "Um golpe de metal gótico anime sobre romper correntes presas ao tempo, com guitarras cortantes, pressão cinemática e uma voz que transforma cativeiro em libertação.",
+                                           "tsukikage-ni-oborete":  "Hardwave metal banhado por luar frio, unindo eletrônica noturna ao drama melódico afiado de Azrael Morathane.",
+                                           "rousoku-no-hai-ni-naru-made":  "Uma elegia gótica de queima lenta que sai da intimidade da vela para uma muralha sonora brilhando como cinza.",
+                                           "kurobeni-nafuda-wo-hagasu":  "Uma purga de identidade em preto e carmesim: elegante, violenta e polida com um refrão que parece arrancar uma etiqueta da pele.",
+                                           "kiga-no-ori":  "Future rave J-metal trancado numa gaiola dourada: agressivo, faminto e feito para impacto máximo no palco da noite.",
+                                           "sono-me-kaeshite":  "Uma exigência perfurante envolta em metal gótico anime, equilibrando força vocal dramática e graves modernos brutais.",
+                                           "tomodachi-no-ondo":  "Um calor frágil sob a armadura; tensão metal-pop melódica sobre distância, ternura e a precisão insuportável da amizade.",
+                                           "ori-no-soto-wa-anata":  "Uma ferida cinematográfica para fechar a era da gaiola, alcançando alguém além das grades com beleza, fúria e contenção.",
+                                           "timecard-wo-kanda":  "Azrael morde o feitiço do cartão de ponto com um pequeno sorriso e transforma correntes de trabalho em faíscas, dentes e luz de guitarra da meia-noite.",
+                                           "heikou-meiro":  "Uma estrada paralela ao submundo se abre sob luar rosa pálido, e Azrael te convida a caminhar ao lado dela antes que o portão feche.",
+                                           "nihaime-no-kuuseki":  "Uma segunda taça espera alguém que talvez nunca chegue; Azrael deixa a cadeira vazia perigosamente quente.",
+                                           "hitokuchi-dake-kuchizukete":  "Uma mordida, um beijo, uma pequena ruína. Um convite gótico doce com carmesim suficiente para deixar marca.",
+                                           "dokuringo-no-kuchizuke":  "Um beijo de maçã venenosa, polido como lâmina de conto de fadas. Azrael faz o aviso soar como convite.",
+                                           "yoru-ni-okurimono-wo":  "Um presente para a noite: fita, sombra e um refrão que espera educadamente até você baixar a guarda.",
+                                           "kesshoku-no-hoshitsu":  "Rotina de beleza como ritual de batalha: brilho rosa pálido, pulso borgonha e uma mordidinha travessa de glamour metal.",
+                                           "esa-janai-namae":  "Não é isca, é um nome. Azrael transforma a última palavra em quebra-coleiras, suave para sussurrar e afiada para sangrar."
+                                       }
+              },
+    "fr":  {
+               "label":  "Français",
+               "locale":  "fr-FR",
+               "common":  {
+                              "skip":  "Aller au contenu",
+                              "tagline":  "Metal gothique anime"
+                          },
+               "nav":  {
+                           "home":  "Accueil",
+                           "music":  "Musique",
+                           "about":  "À propos"
+                       },
+               "lang":  {
+                            "button":  "Langue",
+                            "promptTitle":  "Choisissez votre langue",
+                            "promptCopy":  "Votre navigateur semble préférer {language}. Vous pouvez rester en anglais ou ouvrir la porte d\u0027Azrael dans cette langue.",
+                            "english":  "anglais"
+                        },
+               "home":  {
+                            "heroEyebrow":  "Hub officiel",
+                            "heroCopy":  "Approchez. Azrael a caché de petites malédictions dans des guitares lourdes, des refrains de velours et une lune rose pâle.",
+                            "latestEyebrow":  "Dernière sortie",
+                            "latestTitle":  "Nouveau depuis l\u0027autel",
+                            "musicEyebrow":  "Musique",
+                            "musicTitle":  "Morceaux choisis",
+                            "musicCopy":  "Choisissez une porte, darling. Chaque chanson mord autrement, et Azrael ne promet que certaines dangereuses.",
+                            "watchEyebrow":  "Regarder",
+                            "watchTitle":  "Vidéo",
+                            "connectEyebrow":  "Connecter",
+                            "connectTitle":  "Réseaux",
+                            "listenWatch":  "Écouter / Voir",
+                            "allMusic":  "Toute la musique",
+                            "linksComingSoon":  "Liens bientôt disponibles"
+                        },
+               "musicPage":  {
+                                 "eyebrow":  "Musique",
+                                 "title":  "Toutes les sorties",
+                                 "copy":  "Choisissez la blessure qui vous répond en chantant. Azrael garde ici toutes les portes ouvertes, même celles qui ont des dents."
+                             },
+               "about":  {
+                             "eyebrow":  "À propos",
+                             "short":  "Azrael Morathane est une identité moderne de metal gothique anime : ornée mais acérée, romantique mais lourde, faite pour les écouteurs de minuit et l\u0027impact d\u0027une scène.",
+                             "body1":  "Azrael Morathane existe entre l\u0027ombre d\u0027une cathédrale et le reflet du néon. Le son mêle metal mélodique, atmosphère gothique, pression électronique et drame vocal à l\u0027échelle anime.",
+                             "body2":  "Le langage du projet est noir, bordeaux profond et rose pâle : élégant, sévère et émotionnellement direct. Chaque sortie est à la fois chanson et entrée visuelle dans le même monde sombre et romantique."
+                         },
+               "newsletter":  {
+                                  "eyebrow":  "Follow",
+                                  "title":  "Restez près de la prochaine sortie",
+                                  "copy":  "Laissez votre adresse au portail. Azrael enverra des murmures de sortie, des annonces vidéo et de petits avertissements de minuit.",
+                                  "placeholder":  "email@example.com",
+                                  "emailLabel":  "Adresse e-mail",
+                                  "button":  "Rejoindre la liste",
+                                  "sending":  "Envoi...",
+                                  "success":  "Merci. Azrael a reçu votre adresse.",
+                                  "error":  "Le portail ne s\u0027est pas ouvert. Réessayez plus tard.",
+                                  "disabled":  "La liste ouvrira bientôt."
+                              },
+               "footer":  {
+                              "label":  "Morathane Records"
+                          },
+               "meta":  {
+                            "homeTitle":  "Azrael Morathane | Hub officiel",
+                            "homeDescription":  "Hub officiel d\u0027Azrael Morathane avec sorties de metal gothique anime, vidéos et liens musicaux.",
+                            "musicTitle":  "Musique | Azrael Morathane",
+                            "musicDescription":  "Parcourez les sorties, pochettes, pages de chansons et liens officiels d\u0027Azrael Morathane.",
+                            "aboutTitle":  "About | Azrael Morathane",
+                            "aboutDescription":  "Azrael Morathane est un projet de metal gothique anime sombre porté par des voix cinématographiques, des guitares brutales et une narration visuelle élégante."
+                        },
+               "songDescriptions":  {
+                                        "tokikase-kaitai":  "Une frappe de metal gothique anime sur la rupture des chaînes du temps, avec guitares rasoirs, pression synthétique cinématographique et voix qui transforme la captivité en libération.",
+                                        "tsukikage-ni-oborete":  "Hardwave metal baigné d\u0027une lune froide, mêlant électronique nocturne et drame mélodique tranchant d\u0027Azrael Morathane.",
+                                        "rousoku-no-hai-ni-naru-made":  "Une élégie gothique à combustion lente, de l\u0027intimité d\u0027une bougie vers un mur sonore brillant comme la cendre.",
+                                        "kurobeni-nafuda-wo-hagasu":  "Une purge d\u0027identité noire et cramoisie : élégante, violente, avec un refrain qui arrache une étiquette à même la peau.",
+                                        "kiga-no-ori":  "Future rave J-metal enfermé dans une cage dorée : agressif, affamé, conçu pour l\u0027impact maximal de la scène nocturne.",
+                                        "sono-me-kaeshite":  "Une exigence perçante enveloppée de metal gothique anime, entre force vocale dramatique et attaque grave moderne et brutale.",
+                                        "tomodachi-no-ondo":  "Une chaleur fragile sous l\u0027armure : tension metal-pop mélodique autour de la distance, de la tendresse et de la précision insoutenable de l\u0027amitié.",
+                                        "ori-no-soto-wa-anata":  "Une blessure cinématographique pour clore l\u0027ère de la cage, tendue vers quelqu\u0027un au-delà des barreaux avec beauté, fureur et retenue.",
+                                        "timecard-wo-kanda":  "Azrael mord le sortilège de la pointeuse avec un petit sourire et change les chaînes du travail en étincelles, dents et lumière de guitare nocturne.",
+                                        "heikou-meiro":  "Une route parallèle vers les enfers s\u0027ouvre sous une lune rose pâle, et Azrael vous invite à marcher près d\u0027elle avant la fermeture du portail.",
+                                        "nihaime-no-kuuseki":  "Un second verre attend quelqu\u0027un qui ne reviendra peut-être jamais ; Azrael rend la chaise vide dangereusement chaude.",
+                                        "hitokuchi-dake-kuchizukete":  "Une bouchée, un baiser, une petite ruine. Un piège gothique sucré avec assez de cramoisi pour laisser une marque.",
+                                        "dokuringo-no-kuchizuke":  "Un baiser de pomme empoisonnée, poli comme une lame de conte. Azrael fait sonner l\u0027avertissement comme une invitation.",
+                                        "yoru-ni-okurimono-wo":  "Un cadeau pour la nuit : ruban, ombre et refrain qui attend poliment que votre garde tombe.",
+                                        "kesshoku-no-hoshitsu":  "La routine beauté en rituel de bataille : éclat rose pâle, pouls bordeaux et petite morsure de glamour metal.",
+                                        "esa-janai-namae":  "Pas un appât, un nom. Azrael transforme le dernier mot en briseur de collier, assez doux pour être murmuré et assez vif pour faire saigner."
+                                    }
+           },
+    "de":  {
+               "label":  "Deutsch",
+               "locale":  "de-DE",
+               "common":  {
+                              "skip":  "Zum Inhalt springen",
+                              "tagline":  "Gothic Anime Metal"
+                          },
+               "nav":  {
+                           "home":  "Home",
+                           "music":  "Musik",
+                           "about":  "Über"
+                       },
+               "lang":  {
+                            "button":  "Sprache",
+                            "promptTitle":  "Sprache wählen",
+                            "promptCopy":  "Dein Browser scheint {language} zu bevorzugen. Du kannst bei Englisch bleiben oder Azraels Tor in dieser Sprache öffnen.",
+                            "english":  "Englisch"
+                        },
+               "home":  {
+                            "heroEyebrow":  "Offizieller Artist Hub",
+                            "heroCopy":  "Komm näher. Azrael hat kleine Flüche in schwere Gitarren, samtige Refrains und blassrosa Mondlicht gelegt.",
+                            "latestEyebrow":  "Neueste Veröffentlichung",
+                            "latestTitle":  "Neu vom Altar",
+                            "musicEyebrow":  "Musik",
+                            "musicTitle":  "Ausgewählte Songs",
+                            "musicCopy":  "Wähle eine Tür, darling. Jeder Song beißt anders, und Azrael verspricht nur, dass einige davon gefährlich sind.",
+                            "watchEyebrow":  "Ansehen",
+                            "watchTitle":  "Video",
+                            "connectEyebrow":  "Verbinden",
+                            "connectTitle":  "Socials",
+                            "listenWatch":  "Hören / Sehen",
+                            "allMusic":  "Alle Musik",
+                            "linksComingSoon":  "Links folgen bald"
+                        },
+               "musicPage":  {
+                                 "eyebrow":  "Musik",
+                                 "title":  "Alle Veröffentlichungen",
+                                 "copy":  "Wähle die Wunde, die zurücksingt. Azrael hält hier jede Tür offen, selbst die mit Zähnen."
+                             },
+               "about":  {
+                             "eyebrow":  "Über",
+                             "short":  "Azrael Morathane ist eine moderne Gothic-Anime-Metal-Identität: kunstvoll, aber scharf; romantisch, aber schwer; gemacht für Mitternachtskopfhörer und Bühnenwucht.",
+                             "body1":  "Azrael Morathane existiert zwischen Kathedralenschatten und Neon-Nachbild. Der Sound verbindet melodischen Metal, Gothic-Atmosphäre, elektronische Spannung und Anime-große Gesangsdramatik.",
+                             "body2":  "Die Sprache des Projekts ist Schwarz, tiefes Burgunderrot und blasses Pink: elegant, streng und emotional direkt. Jede Veröffentlichung ist Song und visueller Eingang in dieselbe dunkle romantische Welt."
+                         },
+               "newsletter":  {
+                                  "eyebrow":  "Follow",
+                                  "title":  "Bleib nah an der nächsten Veröffentlichung",
+                                  "copy":  "Lass deine Adresse am Tor. Azrael sendet Release-Flüstern, Video-Hinweise und kleine Mitternachtswarnungen.",
+                                  "placeholder":  "email@example.com",
+                                  "emailLabel":  "E-Mail-Adresse",
+                                  "button":  "Liste beitreten",
+                                  "sending":  "Senden...",
+                                  "success":  "Danke. Azrael hat deine Adresse erhalten.",
+                                  "error":  "Das Tor hat sich nicht geöffnet. Bitte später erneut versuchen.",
+                                  "disabled":  "Die Liste öffnet bald."
+                              },
+               "footer":  {
+                              "label":  "Morathane Records"
+                          },
+               "meta":  {
+                            "homeTitle":  "Azrael Morathane | Official Artist Hub",
+                            "homeDescription":  "Offizieller Hub für Azrael Morathane mit Gothic-Anime-Metal-Releases, Videos und Musiklinks.",
+                            "musicTitle":  "Musik | Azrael Morathane",
+                            "musicDescription":  "Entdecke Releases, Cover, Songseiten und offizielle Musiklinks von Azrael Morathane.",
+                            "aboutTitle":  "About | Azrael Morathane",
+                            "aboutDescription":  "Azrael Morathane ist ein dunkles Gothic-Anime-Metal-Projekt mit filmischen Vocals, brutalen Gitarren und eleganter visueller Erzählung."
+                        },
+               "songDescriptions":  {
+                                        "tokikase-kaitai":  "Ein Gothic-Anime-Metal-Schlag über das Brechen zeitgebundener Ketten, gebaut aus messerscharfen Gitarren, filmischem Synth-Druck und einer Stimme, die Gefangenschaft in Befreiung verwandelt.",
+                                        "tsukikage-ni-oborete":  "Mondbeschienener Hardwave Metal mit kaltem romantischem Glanz, der nächtliche Elektronik mit Azrael Morathanes scharfem Melodrama verbindet.",
+                                        "rousoku-no-hai-ni-naru-made":  "Eine langsam brennende Gothic-Metal-Elegie, die von Kerzenintimität zu einer aschhellen Klangwand auflodert.",
+                                        "kurobeni-nafuda-wo-hagasu":  "Eine schwarz-karmesinrote Identitätsreinigung in Metalform: elegant, gewaltsam und mit einem Refrain, der ein Etikett von der Haut reißt.",
+                                        "kiga-no-ori":  "Future Rave J-Metal in einem vergoldeten Käfig: aggressiv, hungrig und für maximale Nachtbühnenwirkung gemacht.",
+                                        "sono-me-kaeshite":  "Eine stechende Forderung in Gothic-Anime-Metal gehüllt, zwischen dramatischer Stimmkraft und brutalem modernem Low-End.",
+                                        "tomodachi-no-ondo":  "Zerbrechliche Wärme unter der Rüstung: melodische Metal-Pop-Spannung über Distanz, Zärtlichkeit und die unerträgliche Präzision von Freundschaft.",
+                                        "ori-no-soto-wa-anata":  "Eine filmische Schlusswunde der Käfig-Ära, die mit Schönheit, Wut und Zurückhaltung nach jemandem jenseits der Gitter greift.",
+                                        "timecard-wo-kanda":  "Azrael zerbeißt den Stechuhr-Zauber mit einem kleinen Lächeln und verwandelt Arbeitsketten in Funken, Zähne und Mitternachtsgitarrenlicht.",
+                                        "heikou-meiro":  "Ein paralleler Unterweltweg öffnet sich unter blassrosa Mondlicht, und Azrael lädt dich ein, neben ihr zu gehen, bevor das Tor schließt.",
+                                        "nihaime-no-kuuseki":  "Ein zweites Glas wartet auf jemanden, der vielleicht nie kommt; Azrael macht den leeren Stuhl gefährlich warm.",
+                                        "hitokuchi-dake-kuchizukete":  "Ein Biss, ein Kuss, ein kleines Verderben. Eine süße Gothic-Lockung mit genug Karmesin, um Spuren zu hinterlassen.",
+                                        "dokuringo-no-kuchizuke":  "Ein Giftapfelkuss, poliert wie eine Märchenklinge. Azrael lässt das Warnschild wie eine Einladung klingen.",
+                                        "yoru-ni-okurimono-wo":  "Ein Geschenk an die Nacht: Band, Schatten und ein Refrain, der höflich wartet, bis deine Deckung fällt.",
+                                        "kesshoku-no-hoshitsu":  "Beauty-Routine als Kampfritual: blassrosa Glanz, burgunderroter Puls und ein schelmischer Biss Metal-Glamour.",
+                                        "esa-janai-namae":  "Kein Köder, sondern ein Name. Azrael macht das letzte Wort zum Halsbandbrecher, weich genug zum Flüstern und scharf genug für Blut."
+                                    }
+           },
+    "id":  {
+               "label":  "Bahasa Indonesia",
+               "locale":  "id-ID",
+               "common":  {
+                              "skip":  "Lewati ke konten",
+                              "tagline":  "Metal gothic anime"
+                          },
+               "nav":  {
+                           "home":  "Home",
+                           "music":  "Musik",
+                           "about":  "Tentang"
+                       },
+               "lang":  {
+                            "button":  "Bahasa",
+                            "promptTitle":  "Pilih bahasa",
+                            "promptCopy":  "Browser kamu sepertinya memakai {language}. Kamu bisa tetap memakai bahasa Inggris atau membuka gerbang Azrael dalam bahasa itu.",
+                            "english":  "Inggris"
+                        },
+               "home":  {
+                            "heroEyebrow":  "Hub artis resmi",
+                            "heroCopy":  "Mendekatlah. Azrael menyembunyikan kutukan kecil di gitar berat, chorus beludru, dan cahaya bulan merah muda pucat.",
+                            "latestEyebrow":  "Rilisan terbaru",
+                            "latestTitle":  "Baru dari altar",
+                            "musicEyebrow":  "Musik",
+                            "musicTitle":  "Lagu pilihan",
+                            "musicCopy":  "Pilih satu pintu, sayang. Setiap lagu menggigit dengan cara berbeda, dan Azrael hanya berjanji beberapa di antaranya berbahaya.",
+                            "watchEyebrow":  "Tonton",
+                            "watchTitle":  "Video",
+                            "connectEyebrow":  "Terhubung",
+                            "connectTitle":  "Sosial",
+                            "listenWatch":  "Dengar / Tonton",
+                            "allMusic":  "Semua musik",
+                            "linksComingSoon":  "Tautan segera hadir"
+                        },
+               "musicPage":  {
+                                 "eyebrow":  "Musik",
+                                 "title":  "Semua rilisan",
+                                 "copy":  "Pilih luka yang bernyanyi balik. Azrael membiarkan semua pintu terbuka di sini, bahkan pintu yang punya gigi."
+                             },
+               "about":  {
+                             "eyebrow":  "Tentang",
+                             "short":  "Azrael Morathane adalah identitas metal gothic anime modern: indah tapi tajam, romantis tapi berat, dibuat untuk headphone tengah malam dan dampak sebesar panggung.",
+                             "body1":  "Azrael Morathane hidup di antara bayangan katedral dan sisa cahaya neon. Suaranya mencampur metal melodik, atmosfer gothic, tekanan elektronik, dan drama vokal berskala anime.",
+                             "body2":  "Bahasa proyek ini adalah hitam, burgundy pekat, dan merah muda pucat: elegan, tegas, dan emosional secara langsung. Setiap rilisan adalah lagu sekaligus pintu visual ke dunia gelap romantis yang sama."
+                         },
+               "newsletter":  {
+                                  "eyebrow":  "Follow",
+                                  "title":  "Tetap dekat dengan rilisan berikutnya",
+                                  "copy":  "Tinggalkan alamatmu di gerbang. Azrael akan mengirim bisikan rilisan, kabar video, dan peringatan kecil tengah malam.",
+                                  "placeholder":  "email@example.com",
+                                  "emailLabel":  "Alamat email",
+                                  "button":  "Gabung daftar",
+                                  "sending":  "Mengirim...",
+                                  "success":  "Terima kasih. Azrael sudah menerima alamatmu.",
+                                  "error":  "Gerbang belum terbuka. Coba lagi nanti.",
+                                  "disabled":  "Daftar akan segera dibuka."
+                              },
+               "footer":  {
+                              "label":  "Morathane Records"
+                          },
+               "meta":  {
+                            "homeTitle":  "Azrael Morathane | Hub Artis Resmi",
+                            "homeDescription":  "Hub resmi Azrael Morathane untuk rilisan metal gothic anime, video, dan tautan musik.",
+                            "musicTitle":  "Musik | Azrael Morathane",
+                            "musicDescription":  "Jelajahi rilisan, cover, halaman lagu, dan tautan musik resmi Azrael Morathane.",
+                            "aboutTitle":  "About | Azrael Morathane",
+                            "aboutDescription":  "Azrael Morathane adalah proyek metal gothic anime gelap dengan vokal sinematik, gitar brutal, dan penceritaan visual elegan."
+                        },
+               "songDescriptions":  {
+                                        "tokikase-kaitai":  "Serangan metal gothic anime tentang mematahkan rantai waktu, dibangun dari gitar setajam pisau, tekanan synth sinematik, dan vokal yang mengubah kurungan menjadi pembebasan.",
+                                        "tsukikage-ni-oborete":  "Hardwave metal bercahaya bulan dingin, memadukan elektronik malam dengan drama melodi tajam Azrael Morathane.",
+                                        "rousoku-no-hai-ni-naru-made":  "Elegy gothic metal yang terbakar perlahan, dari keintiman cahaya lilin menuju dinding suara terang seperti abu.",
+                                        "kurobeni-nafuda-wo-hagasu":  "Pembersihan identitas hitam-merah tua dalam bentuk metal: elegan, keras, dengan chorus seperti mencabut label dari kulit.",
+                                        "kiga-no-ori":  "Future rave J-metal terkunci dalam sangkar berlapis emas: agresif, lapar, dan dibuat untuk dampak maksimal di panggung malam.",
+                                        "sono-me-kaeshite":  "Tuntutan menusuk yang dibungkus metal gothic anime, menyeimbangkan kekuatan vokal dramatis dan hantaman low-end modern yang brutal.",
+                                        "tomodachi-no-ondo":  "Panas rapuh di balik zirah; ketegangan metal-pop melodik tentang jarak, kelembutan, dan presisi persahabatan yang menyakitkan.",
+                                        "ori-no-soto-wa-anata":  "Luka sinematik penutup era sangkar, menggapai seseorang di luar jeruji dengan keindahan, amarah, dan kendali.",
+                                        "timecard-wo-kanda":  "Azrael menggigit mantra kartu absensi dengan senyum kecil, mengubah rantai hari kerja menjadi percikan, bekas gigi, dan cahaya gitar tengah malam.",
+                                        "heikou-meiro":  "Jalan paralel menuju dunia bawah terbuka di bawah bulan merah muda pucat, dan Azrael mengajakmu berjalan di sisinya sebelum gerbang tertutup.",
+                                        "nihaime-no-kuuseki":  "Gelas kedua menunggu seseorang yang mungkin tak pernah datang; Azrael membuat kursi kosong terasa hangat dengan berbahaya.",
+                                        "hitokuchi-dake-kuchizukete":  "Satu gigitan, satu ciuman, satu kehancuran kecil. Godaan gothic manis dengan cukup merah tua untuk meninggalkan tanda.",
+                                        "dokuringo-no-kuchizuke":  "Ciuman apel beracun, diasah seperti pisau dongeng. Azrael membuat label peringatan terdengar seperti undangan.",
+                                        "yoru-ni-okurimono-wo":  "Hadiah untuk malam: pita, bayangan, dan chorus yang menunggu sopan sampai pertahananmu turun.",
+                                        "kesshoku-no-hoshitsu":  "Rutinitas kecantikan sebagai ritual perang: kilau merah muda pucat, denyut burgundy, dan gigitan kecil glamor metal yang nakal.",
+                                        "esa-janai-namae":  "Bukan umpan, melainkan nama. Azrael mengubah kata terakhir menjadi pemutus kalung, cukup lembut untuk dibisikkan dan cukup tajam untuk berdarah."
+                                    }
+           }
+}
