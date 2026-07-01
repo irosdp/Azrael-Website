@@ -106,12 +106,12 @@
                            },
                   "home":  {
                                "heroEyebrow":  "官方藝術家中心",
-                               "heroCopy":  "靠近一點。Azrael 把小小的詛咒藏進沉重吉他、絲絨副歌，還有淡粉色月光裡。",
+                               "heroCopy":  "我是 Azrael Morathane。\n\n我把喜歡的東西都放進歌裡了。\n冷掉的月光、壓低的吉他、漂亮卻危險的紅色，\n還有那些明明不能說出口，卻一直留在喉嚨裡的話。",
                                "latestEyebrow":  "最新發售",
                                "latestTitle":  "祭壇傳來的新聲音",
                                "musicEyebrow":  "音樂",
                                "musicTitle":  "精選歌曲",
-                               "musicCopy":  "選一扇門吧，親愛的。每首歌咬人的方式都不一樣，Azrael 只保證有幾首真的很危險。",
+                               "musicCopy":  "這裡是我想先讓你聽見的幾首歌。\n有些比較甜，有些比較重。\n但只要你聽得夠近，應該都會認出我。",
                                "watchEyebrow":  "觀看",
                                "watchTitle":  "影片",
                                "connectEyebrow":  "連結",
@@ -127,9 +127,9 @@
                                 },
                   "about":  {
                                 "eyebrow":  "關於",
-                                "short":  "Azrael Morathane 是現代哥德動漫金屬的藝術家企劃：華麗但銳利，浪漫但沉重，適合午夜耳機，也適合舞台般巨大的衝擊。",
-                                "body1":  "Azrael Morathane 站在大教堂陰影與霓虹殘影之間。聲音混合旋律金屬、哥德氛圍、電子壓迫感，以及動漫尺度的戲劇性歌聲。",
-                                "body2":  "她的世界以黑、深酒紅、淡粉色構成：優雅、嚴厲，情感直接。每一次發行都是歌曲，也是同一個黑暗浪漫世界裡的視覺入口。"
+                                "short":  "我是 Azrael Morathane。\n\n我喜歡黑色、深酒紅、淡粉色。\n也喜歡那些看起來很漂亮，靠近以後卻有點危險的東西。",
+                                "body1":  "我的歌常常從愛開始。\n可是愛一旦說得太久，就會長出別的東西。\n佔有、孤獨、等待，還有一點不想放手的任性。",
+                                "body2":  "所以我把它們寫進旋律裡。\n讓吉他重一點，讓鼓聲靠近一點，\n讓副歌像深夜的耳語一樣，慢慢貼到你耳邊。"
                             },
                   "newsletter":  {
                                      "eyebrow":  "Follow",
@@ -155,22 +155,22 @@
                                "aboutDescription":  "Azrael Morathane 是黑暗哥德動漫金屬藝術家企劃，以電影感歌聲、重型吉他與優雅視覺敘事打造。"
                            },
                   "songDescriptions":  {
-                                           "tokikase-kaitai":  "一首關於解開時間鎖鏈的哥德動漫金屬衝擊，銳利吉他、電影感合成器壓力，讓囚禁感在歌聲裡變成釋放。",
-                                           "tsukikage-ni-oborete":  "冷冽浪漫的月光 hardwave metal，夜色電子聲響與 Azrael Morathane 銳利的旋律戲劇感交纏。",
-                                           "rousoku-no-hai-ni-naru-made":  "慢慢燃燒的哥德金屬輓歌，從燭光般親密的低語，一路燒成灰白發亮的音牆。",
-                                           "kurobeni-nafuda-wo-hagasu":  "黑與紅的身份剝離，以金屬形式撕開標籤；優雅、暴烈，副歌像把名字從皮膚上扯下來。",
-                                           "kiga-no-ori":  "被鎖進鍍金牢籠的 future rave J-metal，飢餓、攻擊性強，為夜晚舞台的最大衝擊而生。",
-                                           "sono-me-kaeshite":  "一句刺穿人的索回，被哥德動漫金屬包裹；戲劇性歌聲與兇狠低頻保持危險平衡。",
-                                           "tomodachi-no-ondo":  "盔甲底下的一點脆弱溫度，用旋律金屬流行的張力描出距離、溫柔，以及友情精準到殘酷的痛。",
-                                           "ori-no-soto-wa-anata":  "籠之篇章的電影感收束，朝欄杆之外的那個人伸手，帶著美、怒意與克制。",
-                                           "timecard-wo-kanda":  "Azrael 帶著一點笑意咬碎打卡的咒語，把工作日的鎖鏈變成火花、齒痕與午夜吉他光。",
-                                           "heikou-meiro":  "淡粉月光下開啟的平行冥路，Azrael 邀你在門關上以前並肩走一段。",
-                                           "nihaime-no-kuuseki":  "第二杯酒等著也許不會回來的人；Azrael 讓那張空椅子變得危險地溫熱。",
-                                           "hitokuchi-dake-kuchizukete":  "一口、一吻、一點小小毀滅。甜美的哥德誘惑，唇邊有足以留下痕跡的緋紅。",
-                                           "dokuringo-no-kuchizuke":  "毒林檎之吻像童話裡打磨過的刀。Azrael 讓警告標籤聽起來像邀請。",
-                                           "yoru-ni-okurimono-wo":  "獻給夜晚的禮物：緞帶、陰影，以及一段禮貌等待你放下戒心的副歌。",
-                                           "kesshoku-no-hoshitsu":  "把保養儀式變成戰鬥儀式：淡粉光澤、酒紅脈搏，還有一口淘氣的金屬魅力。",
-                                           "esa-janai-namae":  "不是餌，而是名字。Azrael 把最後一句唱成能扯斷項圈的詞，輕得能耳語，利得能見血。"
+                                           "tokikase-kaitai":  "我一直覺得，時間不是往前走的東西。它比較像鎖。這首歌，是我終於把鎖拆開的聲音。",
+                                           "tsukikage-ni-oborete":  "月光很冷，可是我還是喜歡。就算明知道會沉下去，也會忍不住再靠近一點。",
+                                           "rousoku-no-hai-ni-naru-made":  "有些感情不是熄掉，而是燒到最後，只剩一點灰還在發燙。這首歌就是那樣。",
+                                           "kurobeni-nafuda-wo-hagasu":  "別人貼上來的名字，我不想再戴著了。撕下來會痛，但那一瞬間很安靜。",
+                                           "kiga-no-ori":  "我想寫那種被關起來以後，反而更清楚自己想要什麼的感覺。很飢餓，但也很清醒。",
+                                           "sono-me-kaeshite":  "你看過我以後，就不能假裝什麼都沒有發生。這首歌有點任性，我喜歡。",
+                                           "tomodachi-no-ondo":  "朋友這個詞，有時候比告白還殘忍。太近會燙，太遠又會冷。",
+                                           "ori-no-soto-wa-anata":  "我一直看著籠子外面。只是後來才發現，讓我走不出去的，也許不是籠子。",
+                                           "timecard-wo-kanda":  "我討厭被時間推著走。所以這首歌裡，我把卡咬碎了。",
+                                           "heikou-meiro":  "如果有一條路只在夜裡出現，我會想走走看。你要不要跟我一起迷路？",
+                                           "nihaime-no-kuuseki":  "我替你留了位置，也倒了第二杯；你不來的話，它就一直空著吧。",
+                                           "hitokuchi-dake-kuchizukete":  "我說只要一口...可是你應該知道，我不是很擅長停在剛剛好。",
+                                           "dokuringo-no-kuchizuke":  "我把危險放得很明顯了。你還是伸手的話，那就不是我的問題喔！",
+                                           "yoru-ni-okurimono-wo":  "這是我送給夜晚的禮物。包得很漂亮，但打開以前，最好先想清楚。",
+                                           "kesshoku-no-hoshitsu":  "我喜歡可愛的東西，也喜歡讓它們沾上一點紅。這首歌擦上去很甜，留下來會有痕跡。",
+                                           "esa-janai-namae":  "我不是誰的餌，也不是可以隨便叫錯的東西。這首歌裡，我把名字拿回來。"
                                        }
               },
     "ja":  {

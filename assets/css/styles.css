@@ -445,6 +445,9 @@ code {
   border: 1px solid var(--line);
   border-radius: 6px;
   padding: 0.7rem 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
   background: rgba(255, 209, 223, 0.06);
   color: var(--ivory);
   font-weight: 800;
@@ -819,4 +822,33 @@ code {
   .language-prompt {
     align-items: flex-start;
   }
+}
+.btn-icon {
+  display: inline-flex;
+  width: 1.12rem;
+  height: 1.12rem;
+  flex: 0 0 1.12rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-icon svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.social-row .btn-icon {
+  width: 1rem;
+  height: 1rem;
+  flex-basis: 1rem;
+}
+.hero-copy [data-i18n="home.heroCopy"],
+.section-head [data-i18n="home.musicCopy"],
+.page-hero [data-i18n="about.short"],
+.about-panel p,
+.song-detail p,
+.song-card p,
+.feature-copy p {
+  white-space: pre-line;
 }

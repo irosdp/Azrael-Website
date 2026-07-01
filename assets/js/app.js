@@ -23,6 +23,21 @@
     ["amazonMusicUrl", "Amazon Music"]
   ];
 
+  const icons = {
+    youtubeMusicUrl: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M10 8.5v7l5.6-3.5L10 8.5Z" fill="currentColor"/></svg>',
+    youtubeUrl: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6.5" width="18" height="11" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M10.5 9.2v5.6l4.8-2.8-4.8-2.8Z" fill="currentColor"/></svg>',
+    spotifyUrl: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M7.8 10c2.8-.8 5.9-.5 8.5.9M8.4 12.7c2.2-.6 4.7-.3 6.7.8M9 15.1c1.6-.4 3.3-.2 4.8.6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>',
+    appleMusicUrl: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.5 4.5v10.2a3 3 0 1 1-1.8-2.7V7.1L9 8.2v8.1a3 3 0 1 1-1.8-2.7V6.9l9.3-1.9Z" fill="currentColor"/></svg>',
+    hyperfollowUrl: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.8 14.2a3.4 3.4 0 0 1 0-4.8l2.1-2.1a3.4 3.4 0 0 1 4.8 4.8l-1.1 1.1M14.2 9.8a3.4 3.4 0 0 1 0 4.8l-2.1 2.1a3.4 3.4 0 0 1-4.8-4.8l1.1-1.1" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
+    amazonMusicUrl: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8.5c1.2-1.2 2.9-2 5-2 3 0 5 1.7 5 4.5v6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M17 15.5c-1.1 1.1-2.8 1.9-5.2 1.9-2.3 0-4-.7-5.1-1.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
+    instagram: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="5" width="14" height="14" rx="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="3.2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="16.2" cy="7.8" r="1" fill="currentColor"/></svg>',
+    facebook: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.1 8.1h2.2V4.8h-2.7c-3 0-4.5 1.8-4.5 4.6v2H6.8v3.5h2.3v5h3.7v-5h3l.5-3.5h-3.5V9.7c0-1 .4-1.6 1.3-1.6Z" fill="currentColor"/></svg>',
+    x: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>',
+    youtube: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6.5" width="18" height="11" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M10.5 9.2v5.6l4.8-2.8-4.8-2.8Z" fill="currentColor"/></svg>',
+    tiktok: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.3 4.8v8.8a4.1 4.1 0 1 1-3.1-4v3.1a1.5 1.5 0 1 0 1 1.4V4.8h2.1c.5 2 1.8 3.4 3.7 4v3.1a7 7 0 0 1-3.7-1.2Z" fill="currentColor"/></svg>',
+    music: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 4.5v10.6a3 3 0 1 1-1.9-2.8V7.1L9 8.2v8.1a3 3 0 1 1-1.9-2.8V6.8L16 4.5Z" fill="currentColor"/></svg>'
+  };
+
   const languageAliases = {
     "en": "en",
     "en-us": "en",
@@ -54,6 +69,20 @@
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;")
       .replace(/'/g, "&#039;");
+  }
+
+  function iconSvg(name) {
+    return icons[name] || icons.music;
+  }
+
+  function socialIconName(label) {
+    const normalized = String(label || "").toLowerCase().replace(/\s+/g, "");
+    if (normalized.includes("instagram")) return "instagram";
+    if (normalized.includes("facebook")) return "facebook";
+    if (normalized === "x" || normalized.includes("twitter")) return "x";
+    if (normalized.includes("youtube")) return "youtube";
+    if (normalized.includes("tiktok")) return "tiktok";
+    return "music";
   }
 
   function normalizeLanguage(value) {
@@ -107,7 +136,7 @@
       .filter(([key]) => song[key])
       .map(([key, label], index) => {
         const cls = index === 0 ? "btn primary" : "btn";
-        return `<a class="${cls}" href="${escapeHtml(song[key])}" target="_blank" rel="noopener">${label}</a>`;
+        return `<a class="${cls}" href="${escapeHtml(song[key])}" target="_blank" rel="noopener"><span class="btn-icon">${iconSvg(key)}</span><span>${label}</span></a>`;
       });
 
     if (active.length) return active.join("");
@@ -234,7 +263,7 @@
           const href = disabled ? "#" : item.url;
           const rel = disabled ? "" : ' target="_blank" rel="noopener"';
           const label = escapeHtml(item.label);
-          return `<a href="${escapeHtml(href)}"${rel} ${disabled ? 'aria-disabled="true"' : ""}>${label}</a>`;
+          return `<a href="${escapeHtml(href)}"${rel} ${disabled ? 'aria-disabled="true"' : ""}><span class="btn-icon">${iconSvg(socialIconName(item.label))}</span><span>${label}</span></a>`;
         })
         .join("");
       target.innerHTML = links;
