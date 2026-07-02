@@ -339,6 +339,7 @@ code {
 }
 
 .feature-card {
+  position: relative;
   display: grid;
   gap: 1.1rem;
   border: 1px solid var(--line);
@@ -346,6 +347,7 @@ code {
   padding: 1rem;
   background: linear-gradient(145deg, rgba(33, 16, 26, 0.92), rgba(12, 9, 12, 0.92));
   box-shadow: var(--shadow);
+  overflow: hidden;
 }
 
 .feature-card img {
@@ -856,4 +858,123 @@ code {
   display: inline-flex;
   margin-left: 0.7rem;
   color: var(--pink);
+}
+
+.carousel-nav {
+  position: absolute;
+  top: 50%;
+  z-index: 4;
+  display: inline-flex;
+  width: 2.15rem;
+  height: 2.9rem;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 209, 223, 0.28);
+  border-radius: 999px;
+  background: rgba(7, 5, 7, 0.48);
+  color: var(--ivory);
+  cursor: pointer;
+  opacity: 0.72;
+  transform: translateY(-50%);
+  transition: opacity 180ms ease, background 180ms ease, transform 180ms ease;
+  backdrop-filter: blur(8px);
+}
+
+.carousel-nav:hover,
+.carousel-nav:focus-visible {
+  background: rgba(255, 209, 223, 0.16);
+  opacity: 1;
+  outline: none;
+}
+
+.carousel-nav:active {
+  transform: translateY(-50%) scale(0.96);
+}
+
+.carousel-nav svg {
+  width: 1.35rem;
+  height: 1.35rem;
+}
+
+.carousel-prev {
+  left: 0.65rem;
+}
+
+.carousel-next {
+  right: 0.65rem;
+}
+
+.carousel-progress {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+  height: 2px;
+  overflow: hidden;
+  background: rgba(255, 209, 223, 0.1);
+}
+
+.carousel-progress span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, var(--pink), var(--burgundy));
+  box-shadow: 0 0 14px rgba(255, 141, 181, 0.72);
+  transform: scaleX(0);
+  transform-origin: left center;
+  animation: carousel-progress-fill 6500ms linear forwards;
+}
+
+.feature-card.is-sliding > img,
+.feature-card.is-sliding > .feature-copy {
+  animation: carousel-slide-in 520ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+.feature-card.is-sliding[data-direction="prev"] > img,
+.feature-card.is-sliding[data-direction="prev"] > .feature-copy {
+  animation-name: carousel-slide-in-prev;
+}
+
+@keyframes carousel-progress-fill {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes carousel-slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(1.1rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes carousel-slide-in-prev {
+  from {
+    opacity: 0;
+    transform: translateX(-1.1rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .feature-card.is-sliding > img,
+  .feature-card.is-sliding > .feature-copy,
+  .carousel-progress span {
+    animation: none;
+  }
+
+  .carousel-progress span {
+    transform: scaleX(1);
+  }
 }

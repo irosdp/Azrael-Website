@@ -14,6 +14,7 @@
   let i18n = {};
   let currentLanguage = "en";
   let latestCarouselTimer = null;
+  const latestCarouselDelay = 6500;
 
   const platforms = [
     ["youtubeMusicUrl", "YouTube Music"],
@@ -316,8 +317,19 @@
     return `<iframe src="${escapeHtml(src)}" title="Azrael Morathane official video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
   }
 
+  function carouselArrow(direction) {
+    const points = direction === "prev" ? "14 7 9 12 14 17" : "10 7 15 12 10 17";
+    return `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M${points}" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+  }
+
   function featureCardMarkup(song, index, total) {
     const count = total > 1 ? `<span class="carousel-count">${index + 1} / ${total}</span>` : "";
+    const controls = total > 1 ? `
+      <button class="carousel-nav carousel-prev" type="button" aria-label="Previous release" data-carousel-prev>${carouselArrow("prev")}</button>
+      <button class="carousel-nav carousel-next" type="button" aria-label="Next release" data-carousel-next>${carouselArrow("next")}</button>
+      <div class="carousel-progress" aria-hidden="true"><span></span></div>
+    ` : "";
+
     return `
       <img src="${path(song.coverImage)}" alt="${escapeHtml(song.title)} cover art">
       <div class="feature-copy">
@@ -326,6 +338,7 @@
         <p>${escapeHtml(songDescription(song))}</p>
         <div class="platforms">${platformButtons(song)}</div>
       </div>
+      ${controls}
     `;
   }
 
@@ -334,7 +347,7 @@
     if (!latestCard) return;
 
     if (latestCarouselTimer) {
-      clearInterval(latestCarouselTimer);
+      clearTimeout(latestCarouselTimer);
       latestCarouselTimer = null;
     }
 
@@ -342,15 +355,41 @@
     if (!carouselSongs.length) return;
 
     let index = 0;
-    const render = () => {
-      latestCard.innerHTML = featureCardMarkup(carouselSongs[index], index, carouselSongs.length);
-      index = (index + 1) % carouselSongs.length;
+
+    const scheduleNext = () => {
+      if (latestCarouselTimer) clearTimeout(latestCarouselTimer);
+      if (carouselSongs.length <= 1) return;
+      latestCarouselTimer = window.setTimeout(() => {
+        show(index + 1, "next");
+        scheduleNext();
+      }, latestCarouselDelay);
     };
 
-    render();
-    if (carouselSongs.length > 1) {
-      latestCarouselTimer = window.setInterval(render, 6500);
+    const bindControls = () => {
+      const previous = $("[data-carousel-prev]", latestCard);
+      const next = $("[data-carousel-next]", latestCard);
+      if (previous) previous.addEventListener("click", () => {
+        show(index - 1, "prev");
+        scheduleNext();
+      });
+      if (next) next.addEventListener("click", () => {
+        show(index + 1, "next");
+        scheduleNext();
+      });
+    };
+
+    function show(nextIndex, direction) {
+      index = (nextIndex + carouselSongs.length) % carouselSongs.length;
+      latestCard.dataset.direction = direction || "next";
+      latestCard.innerHTML = featureCardMarkup(carouselSongs[index], index, carouselSongs.length);
+      latestCard.classList.remove("is-sliding");
+      void latestCard.offsetWidth;
+      latestCard.classList.add("is-sliding");
+      bindControls();
     }
+
+    show(0, "next");
+    scheduleNext();
   }
   function renderHome(config, songs) {
     const releaseOrder = sortSongs(songs);
