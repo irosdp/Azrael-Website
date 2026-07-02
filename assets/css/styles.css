@@ -852,3 +852,8 @@ code {
 .feature-copy p {
   white-space: pre-line;
 }
+.carousel-count {
+  display: inline-flex;
+  margin-left: 0.7rem;
+  color: var(--pink);
+}

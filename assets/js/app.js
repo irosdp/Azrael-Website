@@ -13,6 +13,7 @@
   let allSongs = [];
   let i18n = {};
   let currentLanguage = "en";
+  let latestCarouselTimer = null;
 
   const platforms = [
     ["youtubeMusicUrl", "YouTube Music"],
@@ -130,16 +131,43 @@
     const sorted = [...songs].sort((a, b) => a.releaseDate.localeCompare(b.releaseDate));
     return direction === "desc" ? sorted.reverse() : sorted;
   }
+  function todayKey() {
+    const parts = new Intl.DateTimeFormat("en-CA", {
+      timeZone: "Asia/Taipei",
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit"
+    }).formatToParts(new Date());
+    const values = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+    return `${values.year}-${values.month}-${values.day}`;
+  }
+
+  function releasedSongs(songs) {
+    const today = todayKey();
+    const released = songs.filter((song) => !song.releaseDate || song.releaseDate <= today);
+    return sortSongs(released.length ? released : songs, "desc");
+  }
 
   function platformButtons(song) {
-    const active = platforms
-      .filter(([key]) => song[key])
-      .map(([key, label], index) => {
-        const cls = index === 0 ? "btn primary" : "btn";
-        return `<a class="${cls}" href="${escapeHtml(song[key])}" target="_blank" rel="noopener"><span class="btn-icon">${iconSvg(key)}</span><span>${label}</span></a>`;
-      });
+    const hasAnyLink = platforms.some(([key]) => song[key]);
+    let activeIndex = 0;
+    const buttons = platforms
+      .map(([key, label]) => {
+        if (song[key]) {
+          const cls = activeIndex === 0 ? "btn primary" : "btn";
+          activeIndex += 1;
+          return `<a class="${cls}" href="${escapeHtml(song[key])}" target="_blank" rel="noopener"><span class="btn-icon">${iconSvg(key)}</span><span>${label}</span></a>`;
+        }
 
-    if (active.length) return active.join("");
+        if (key === "youtubeUrl" && hasAnyLink) {
+          return `<span class="btn disabled" aria-disabled="true"><span class="btn-icon">${iconSvg(key)}</span><span>${label}</span></span>`;
+        }
+
+        return "";
+      })
+      .filter(Boolean);
+
+    if (buttons.length) return buttons.join("");
     return `<span class="btn disabled" aria-disabled="true">${escapeHtml(tr("home.linksComingSoon"))}</span>`;
   }
 
@@ -288,6 +316,42 @@
     return `<iframe src="${escapeHtml(src)}" title="Azrael Morathane official video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
   }
 
+  function featureCardMarkup(song, index, total) {
+    const count = total > 1 ? `<span class="carousel-count">${index + 1} / ${total}</span>` : "";
+    return `
+      <img src="${path(song.coverImage)}" alt="${escapeHtml(song.title)} cover art">
+      <div class="feature-copy">
+        <span class="meta">${escapeHtml(song.albumName)} / ${formatDate(song.releaseDate)}${count}</span>
+        <h3>${escapeHtml(song.title)}</h3>
+        <p>${escapeHtml(songDescription(song))}</p>
+        <div class="platforms">${platformButtons(song)}</div>
+      </div>
+    `;
+  }
+
+  function renderLatestCarousel(songs) {
+    const latestCard = $("#latest-release-card");
+    if (!latestCard) return;
+
+    if (latestCarouselTimer) {
+      clearInterval(latestCarouselTimer);
+      latestCarouselTimer = null;
+    }
+
+    const carouselSongs = releasedSongs(songs).slice(0, 3);
+    if (!carouselSongs.length) return;
+
+    let index = 0;
+    const render = () => {
+      latestCard.innerHTML = featureCardMarkup(carouselSongs[index], index, carouselSongs.length);
+      index = (index + 1) % carouselSongs.length;
+    };
+
+    render();
+    if (carouselSongs.length > 1) {
+      latestCarouselTimer = window.setInterval(render, 6500);
+    }
+  }
   function renderHome(config, songs) {
     const releaseOrder = sortSongs(songs);
     const latest = songs.find((song) => song.slug === config.latestReleaseSlug) || releaseOrder[0];
@@ -313,18 +377,7 @@
       `;
     }
 
-    const latestCard = $("#latest-release-card");
-    if (latestCard) {
-      latestCard.innerHTML = `
-        <img src="${path(latest.coverImage)}" alt="${escapeHtml(latest.title)} cover art">
-        <div class="feature-copy">
-          <span class="meta">${escapeHtml(latest.albumName)} / ${formatDate(latest.releaseDate)}</span>
-          <h3>${escapeHtml(latest.title)}</h3>
-          <p>${escapeHtml(songDescription(latest))}</p>
-          <div class="platforms">${platformButtons(latest)}</div>
-        </div>
-      `;
-    }
+    renderLatestCarousel(songs);
 
     const homeGrid = $("#home-music-grid");
     if (homeGrid) homeGrid.innerHTML = releaseOrder.slice(0, 6).map(renderSongCard).join("");
