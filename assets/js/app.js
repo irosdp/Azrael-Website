@@ -148,16 +148,28 @@
     const released = songs.filter((song) => !song.releaseDate || song.releaseDate <= today);
     return sortSongs(released.length ? released : songs, "desc");
   }
+  function youtubeUrlFor(song) {
+    if (song.youtubeUrl) return song.youtubeUrl;
+    if (!song.youtubeMusicUrl) return "";
+
+    const match = song.youtubeMusicUrl.match(/(?:[?&]v=|youtu\.be\/|embed\/)([A-Za-z0-9_-]{6,})/);
+    return match ? `https://youtu.be/${match[1]}` : "";
+  }
+
+  function platformHref(song, key) {
+    return key === "youtubeUrl" ? youtubeUrlFor(song) : song[key];
+  }
 
   function platformButtons(song) {
-    const hasAnyLink = platforms.some(([key]) => song[key]);
+    const hasAnyLink = platforms.some(([key]) => platformHref(song, key));
     let activeIndex = 0;
     const buttons = platforms
       .map(([key, label]) => {
-        if (song[key]) {
+        const href = platformHref(song, key);
+        if (href) {
           const cls = activeIndex === 0 ? "btn primary" : "btn";
           activeIndex += 1;
-          return `<a class="${cls}" href="${escapeHtml(song[key])}" target="_blank" rel="noopener"><span class="btn-icon">${iconSvg(key)}</span><span>${label}</span></a>`;
+          return `<a class="${cls}" href="${escapeHtml(href)}" target="_blank" rel="noopener"><span class="btn-icon">${iconSvg(key)}</span><span>${label}</span></a>`;
         }
 
         if (key === "youtubeUrl" && hasAnyLink) {
