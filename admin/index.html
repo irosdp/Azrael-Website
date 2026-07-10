@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self' https://api.github.com https://raw.githubusercontent.com; img-src 'self' data: blob: https:; media-src https:; frame-src https://www.youtube-nocookie.com https://open.spotify.com https://embed.music.apple.com; style-src 'self'; script-src 'self'; base-uri 'self'; form-action 'none'">
+  <title>Azrael Website Studio</title>
+  <link rel="stylesheet" href="admin.css?v=20260710">
+</head>
+<body>
+  <a class="skip-link" href="#workspace">跳到編輯區</a>
+
+  <header class="admin-header">
+    <div class="admin-brand">
+      <span class="brand-mark">AM</span>
+      <div>
+        <strong>Azrael Website Studio</strong>
+        <span>歌曲、網站文字與平台連結</span>
+      </div>
+    </div>
+    <div class="header-actions">
+      <span class="connection-state" id="connection-state" data-tone="neutral">唯讀模式</span>
+      <button class="button secondary" id="open-auth" type="button">連接 GitHub</button>
+      <button class="button primary" id="save-current" type="button" disabled>儲存變更</button>
+    </div>
+  </header>
+
+  <nav class="admin-tabs" aria-label="管理區域">
+    <button type="button" data-tab="songs" aria-selected="true">歌曲</button>
+    <button type="button" data-tab="site">網站設定</button>
+    <button type="button" data-tab="translations">多國文字</button>
+  </nav>
+
+  <main id="workspace">
+    <section class="tab-panel is-active" data-panel="songs">
+      <div class="song-workspace">
+        <aside class="song-browser" aria-label="歌曲清單">
+          <div class="browser-tools">
+            <label class="search-field">
+              <span>搜尋歌曲</span>
+              <input id="song-search" type="search" placeholder="歌名或 slug">
+            </label>
+            <button class="button primary" id="add-song" type="button">新增歌曲</button>
+          </div>
+          <div class="song-list" id="song-list"></div>
+        </aside>
+
+        <section class="editor-pane" id="song-editor" aria-live="polite">
+          <div class="empty-editor">
+            <p class="eyebrow">Music catalog</p>
+            <h1>選一首歌開始編輯</h1>
+            <p>新增歌曲後先儲存草稿，再按「自動尋找平台連結」。候選結果會留在這裡等你確認。</p>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="tab-panel" data-panel="site">
+      <div class="content-editor">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Site settings</p>
+            <h1>網站設定</h1>
+          </div>
+          <p>管理最新發售、首頁影片、電子報與社群連結。</p>
+        </div>
+        <form id="site-form" class="form-sections"></form>
+      </div>
+    </section>
+
+    <section class="tab-panel" data-panel="translations">
+      <div class="content-editor">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Localized copy</p>
+            <h1>多國文字</h1>
+          </div>
+          <p>選擇語言與區段後即可修改前台文案；欄位旁會顯示英文參考。</p>
+        </div>
+        <div class="translation-tools">
+          <label>
+            <span>語言</span>
+            <select id="translation-language"></select>
+          </label>
+          <label>
+            <span>區段</span>
+            <select id="translation-section"></select>
+          </label>
+        </div>
+        <form id="translation-form" class="translation-form"></form>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="auth-dialog" class="auth-dialog">
+    <form method="dialog" class="dialog-shell">
+      <div class="dialog-heading">
+        <div>
+          <p class="eyebrow">GitHub authorization</p>
+          <h2>連接網站資料庫</h2>
+        </div>
+        <button class="icon-button" value="cancel" aria-label="關閉" title="關閉" type="submit">×</button>
+      </div>
+      <p>請貼上只授權 <strong>irosdp/Azrael-Website</strong>、Contents 可讀寫的 Fine-grained Token。Token 只保存在這個分頁，關閉後就會清除。</p>
+      <label>
+        <span>GitHub Token</span>
+        <input id="github-token" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_…">
+      </label>
+      <p class="dialog-status" id="auth-status" aria-live="polite"></p>
+      <div class="dialog-actions">
+        <button class="button danger" id="disconnect-github" type="button">清除授權</button>
+        <button class="button primary" id="connect-github" type="button">驗證並連接</button>
+      </div>
+    </form>
+  </dialog>
+
+  <div class="toast-region" id="toast-region" aria-live="polite" aria-atomic="true"></div>
+  <script src="admin.js?v=20260710" defer></script>
+</body>
+</html>

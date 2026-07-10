@@ -1,0 +1,53 @@
+name: Find song platform links
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - data/link-requests.json
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: Song slug to search
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: song-link-finder
+  cancel-in-progress: false
+
+jobs:
+  find-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out website
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Search streaming platforms
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          APPLE_STOREFRONT: US
+        run: |
+          if [ -n "${{ inputs.slug }}" ]; then
+            python scripts/find_song_links.py --slug "${{ inputs.slug }}"
+          else
+            python scripts/find_song_links.py
+          fi
+
+      - name: Commit candidate results
+        run: |
+          if git diff --quiet -- data/link-requests.json data/link-candidates.json; then
+            echo "No candidate changes to commit."
+            exit 0
+          fi
+          git config user.name "azrael-link-finder[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/link-requests.json data/link-candidates.json
+          git commit -m "Update song link candidates"
+          git pull --rebase origin main
+          git push

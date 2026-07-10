@@ -551,15 +551,16 @@
   }
 
   function renderCurrentPage() {
+    const publicSongs = allSongs.filter((song) => song.status !== "draft");
     applyStaticTranslations();
     renderLanguageSwitcher();
     renderSocialLinks(siteConfig);
     renderFooterBrand();
 
-    if (page === "home") renderHome(siteConfig, allSongs);
-    if (page === "music") renderMusic(allSongs);
+    if (page === "home") renderHome(siteConfig, publicSongs);
+    if (page === "music") renderMusic(publicSongs);
     if (page === "about") updateMeta(tr("meta.aboutTitle"), tr("meta.aboutDescription"), "assets/images/brand/azrael-stage-hero.png");
-    if (page === "song") renderSongPage(allSongs);
+    if (page === "song") renderSongPage(publicSongs);
   }
 
   function setLanguage(language, persist) {
