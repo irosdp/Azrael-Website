@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-11T15:05:42Z",
+  "updatedAt": "2026-07-11T15:17:09Z",
   "songs": {
     "tokikase-kaitai": {
       "requestId": "2026-07-11T15:05:32.463Z",
@@ -208,6 +208,132 @@
             "url": "https://music.youtube.com/watch?v=6FGOdreSRGM",
             "confidence": 0.73,
             "matchNotes": "歌名高度相符、藝人完全相符、發售日在一週內"
+          }
+        ]
+      }
+    },
+    "sono-me-kaeshite": {
+      "requestId": "2026-07-11T15:17:00.503Z",
+      "status": "ready",
+      "completedAt": "2026-07-11T15:17:09Z",
+      "query": {
+        "title": "その目、返して",
+        "artist": "Azrael Morathane",
+        "releaseDate": "2026-07-11",
+        "isrc": ""
+      },
+      "providerStatus": {
+        "appleMusic": "ok",
+        "spotify": "由管理者手動更新",
+        "youtube": "ok",
+        "youtubeMusic": "ok",
+        "hyperfollow": "需由管理者手動提供",
+        "amazonMusic": "目前保留人工確認"
+      },
+      "providers": {
+        "appleMusic": [
+          {
+            "id": "6786138113",
+            "url": "https://music.apple.com/us/album/%E3%81%9D%E3%81%AE%E7%9B%AE-%E8%BF%94%E3%81%97%E3%81%A6/6786138112?i=6786138113&uo=4",
+            "embedUrl": "https://embed.music.apple.com/us/album/%E3%81%9D%E3%81%AE%E7%9B%AE-%E8%BF%94%E3%81%97%E3%81%A6/6786138112?i=6786138113&uo=4",
+            "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/27/86/d92786d4-3a5a-7c1b-f87d-fea1bcab35a8/mzaf_4829647565833435129.plus.aac.p.m4a",
+            "title": "その目、返して",
+            "artist": "Azrael Morathane",
+            "album": "その目、返して - Single",
+            "releaseDate": "2026-07-11T12:00:00Z",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c0/98/2f/c0982fc0-1d78-0197-238d-bdf709e9c367/artwork.jpg/600x600bb.jpg",
+            "source": "Apple iTunes Search API",
+            "confidence": 0.95,
+            "matchNotes": "歌名完全相符、藝人完全相符、發售日相符"
+          },
+          {
+            "id": "6782365896",
+            "url": "https://music.apple.com/us/album/%E6%9C%88%E5%BD%B1%E3%81%AB%E6%BA%BA%E3%82%8C%E3%81%A6/6782365894?i=6782365896&uo=4",
+            "embedUrl": "https://embed.music.apple.com/us/album/%E6%9C%88%E5%BD%B1%E3%81%AB%E6%BA%BA%E3%82%8C%E3%81%A6/6782365894?i=6782365896&uo=4",
+            "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e3/ce/ed/e3ceed8c-300e-cb71-2856-ed31ce25a144/mzaf_4297563874811511436.plus.aac.p.m4a",
+            "title": "月影に溺れて",
+            "artist": "Azrael Morathane",
+            "album": "時枷解体 - EP",
+            "releaseDate": "2026-07-01T12:00:00Z",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/10/90/71/10907154-73f6-2fe9-9ea4-638c4cf09b68/artwork.jpg/600x600bb.jpg",
+            "source": "Apple iTunes Search API",
+            "confidence": 0.317,
+            "matchNotes": "歌名需要人工確認、藝人完全相符"
+          },
+          {
+            "id": "6780669089",
+            "url": "https://music.apple.com/us/album/%E6%9C%88%E5%BD%B1%E3%81%AB%E6%BA%BA%E3%82%8C%E3%81%A6/6780669088?i=6780669089&uo=4",
+            "embedUrl": "https://embed.music.apple.com/us/album/%E6%9C%88%E5%BD%B1%E3%81%AB%E6%BA%BA%E3%82%8C%E3%81%A6/6780669088?i=6780669089&uo=4",
+            "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/48/b3/13/48b31321-24be-bfdc-d76a-bc831b661dfa/mzaf_14787801178987099163.plus.aac.p.m4a",
+            "title": "月影に溺れて",
+            "artist": "Azrael Morathane",
+            "album": "月影に溺れて - Single",
+            "releaseDate": "2026-07-01T12:00:00Z",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3e/16/ec/3e16ecf6-286c-4b61-1858-b9fe578e1621/artwork.jpg/600x600bb.jpg",
+            "source": "Apple iTunes Search API",
+            "confidence": 0.317,
+            "matchNotes": "歌名需要人工確認、藝人完全相符"
+          },
+          {
+            "id": "6782365897",
+            "url": "https://music.apple.com/us/album/%E8%9D%8B%E7%87%AD%E3%81%AE%E7%81%B0%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%BE%E3%81%A7/6782365894?i=6782365897&uo=4",
+            "embedUrl": "https://embed.music.apple.com/us/album/%E8%9D%8B%E7%87%AD%E3%81%AE%E7%81%B0%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%BE%E3%81%A7/6782365894?i=6782365897&uo=4",
+            "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5e/3a/6f/5e3a6fd2-d1bb-8e2e-2857-156840a7def3/mzaf_6766944621108313062.plus.aac.p.m4a",
+            "title": "蝋燭の灰になるまで",
+            "artist": "Azrael Morathane",
+            "album": "時枷解体 - EP",
+            "releaseDate": "2026-07-02T12:00:00Z",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/10/90/71/10907154-73f6-2fe9-9ea4-638c4cf09b68/artwork.jpg/600x600bb.jpg",
+            "source": "Apple iTunes Search API",
+            "confidence": 0.317,
+            "matchNotes": "歌名需要人工確認、藝人完全相符"
+          },
+          {
+            "id": "6780655318",
+            "url": "https://music.apple.com/us/album/%E8%9D%8B%E7%87%AD%E3%81%AE%E7%81%B0%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%BE%E3%81%A7/6780655316?i=6780655318&uo=4",
+            "embedUrl": "https://embed.music.apple.com/us/album/%E8%9D%8B%E7%87%AD%E3%81%AE%E7%81%B0%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%BE%E3%81%A7/6780655316?i=6780655318&uo=4",
+            "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/31/5f/11/315f11a7-4327-879d-7a4f-e19d31d8dc9c/mzaf_17613098367740330830.plus.aac.p.m4a",
+            "title": "蝋燭の灰になるまで",
+            "artist": "Azrael Morathane",
+            "album": "蝋燭の灰になるまで - Single",
+            "releaseDate": "2026-07-02T12:00:00Z",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/81/10/72/8110728d-08a0-fa1d-fd23-70c8f64a88b9/artwork.jpg/600x600bb.jpg",
+            "source": "Apple iTunes Search API",
+            "confidence": 0.317,
+            "matchNotes": "歌名需要人工確認、藝人完全相符"
+          }
+        ],
+        "spotify": [],
+        "youtube": [
+          {
+            "id": "kBFw5ErMuZQ",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/kBFw5ErMuZQ",
+            "previewUrl": "",
+            "title": "その目、返して",
+            "artist": "Azrael Morathane - Topic",
+            "album": "",
+            "releaseDate": "2026-07-10T10:01:47Z",
+            "artwork": "https://i.ytimg.com/vi/kBFw5ErMuZQ/hqdefault.jpg",
+            "source": "YouTube Data API",
+            "url": "https://youtu.be/kBFw5ErMuZQ",
+            "confidence": 0.82,
+            "matchNotes": "歌名完全相符、藝人名稱相符、發售日在一週內"
+          }
+        ],
+        "youtubeMusic": [
+          {
+            "id": "kBFw5ErMuZQ",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/kBFw5ErMuZQ",
+            "previewUrl": "",
+            "title": "その目、返して",
+            "artist": "Azrael Morathane - Topic",
+            "album": "",
+            "releaseDate": "2026-07-10T10:01:47Z",
+            "artwork": "https://i.ytimg.com/vi/kBFw5ErMuZQ/hqdefault.jpg",
+            "source": "YouTube Data API",
+            "url": "https://music.youtube.com/watch?v=kBFw5ErMuZQ",
+            "confidence": 0.82,
+            "matchNotes": "歌名完全相符、藝人名稱相符、發售日在一週內"
           }
         ]
       }
