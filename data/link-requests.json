@@ -8,6 +8,13 @@
       "requestedBy": "irosdp",
       "status": "ready",
       "completedAt": "2026-07-11T15:05:42Z"
+    },
+    "sono-me-kaeshite": {
+      "requestId": "2026-07-11T15:17:00.503Z",
+      "slug": "sono-me-kaeshite",
+      "requestedAt": "2026-07-11T15:17:00.503Z",
+      "requestedBy": "irosdp",
+      "status": "requested"
     }
   }
 }
