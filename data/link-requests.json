@@ -1,4 +1,12 @@
 {
   "version": 1,
-  "requests": {}
+  "requests": {
+    "tokikase-kaitai": {
+      "requestId": "2026-07-11T15:05:32.463Z",
+      "slug": "tokikase-kaitai",
+      "requestedAt": "2026-07-11T15:05:32.463Z",
+      "requestedBy": "irosdp",
+      "status": "requested"
+    }
+  }
 }
