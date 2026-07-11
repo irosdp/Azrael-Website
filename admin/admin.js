@@ -591,7 +591,13 @@
 
   async function githubGetFile(path) {
     try {
-      return await githubRequest(`${contentsUrl(path)}?ref=${encodeURIComponent(repository.branch)}`);
+      const query = new URLSearchParams({
+        ref: repository.branch,
+        cacheBust: String(Date.now())
+      });
+      return await githubRequest(`${contentsUrl(path)}?${query}`, {
+        headers: { "Cache-Control": "no-cache" }
+      });
     } catch (error) {
       if (String(error.message).includes("Not Found")) return null;
       throw error;
@@ -618,7 +624,20 @@
   }
 
   async function githubPut(path, contentBase64, message) {
-    const existing = await githubGetFile(path);
+    let lastError;
+    for (let attempt = 0; attempt < 3; attempt += 1) {
+      const existing = await githubGetFile(path);
+      try {
+        return await githubPutAtSha(path, contentBase64, message, existing?.sha);
+      } catch (error) {
+        lastError = error;
+        if (!/does not match|conflict|sha/i.test(error.message) || attempt === 2) throw error;
+      }
+    }
+    throw lastError;
+  }
+
+  async function githubPutAtSha(path, contentBase64, message, sha) {
     return githubRequest(contentsUrl(path), {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
@@ -626,7 +645,7 @@
         message,
         content: contentBase64,
         branch: repository.branch,
-        ...(existing?.sha ? { sha: existing.sha } : {})
+        ...(sha ? { sha } : {})
       })
     });
   }
@@ -639,6 +658,23 @@
     const file = await githubGetFile(path);
     if (!file?.content) return deepClone(fallback);
     return JSON.parse(base64ToText(file.content));
+  }
+
+  async function githubUpdateJson(path, fallback, update, message) {
+    let lastError;
+    for (let attempt = 0; attempt < 4; attempt += 1) {
+      const file = await githubGetFile(path);
+      const current = file?.content ? JSON.parse(base64ToText(file.content)) : deepClone(fallback);
+      const next = update(current);
+      try {
+        await githubPutAtSha(path, textToBase64(jsonText(next)), message, file?.sha);
+        return next;
+      } catch (error) {
+        lastError = error;
+        if (!/does not match|conflict|sha/i.test(error.message) || attempt === 3) throw error;
+      }
+    }
+    throw lastError;
   }
 
   async function verifyToken(token) {
@@ -794,17 +830,23 @@
     button.disabled = true;
     button.textContent = "送出搜尋…";
     try {
-      const requests = await githubGetJson(files.requests, { version: 1, requests: {} });
-      requests.version = 1;
-      requests.requests ||= {};
-      requests.requests[song.slug] = {
-        requestId,
-        slug: song.slug,
-        requestedAt: requestId,
-        requestedBy: state.githubUser,
-        status: "requested"
-      };
-      await githubPutText(files.requests, jsonText(requests), `Request platform link search: ${song.title}`);
+      const requests = await githubUpdateJson(
+        files.requests,
+        { version: 1, requests: {} },
+        (latest) => {
+          latest.version = 1;
+          latest.requests ||= {};
+          latest.requests[song.slug] = {
+            requestId,
+            slug: song.slug,
+            requestedAt: requestId,
+            requestedBy: state.githubUser,
+            status: "requested"
+          };
+          return latest;
+        },
+        `Request platform link search: ${song.title}`
+      );
       state.requests = requests;
       renderSongEditor();
       toast("搜尋請求已送出。GitHub Actions 完成後，候選會自動出現在這裡。", "success");
