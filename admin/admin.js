@@ -648,6 +648,7 @@
     state.githubUser = user.login;
     sessionStorage.setItem("azrael_admin_token", state.token);
     setConnection(`已連接 ${user.login}`, "success");
+    renderSongEditor();
   }
 
   function clearToken() {
@@ -656,6 +657,7 @@
     sessionStorage.removeItem("azrael_admin_token");
     $("#github-token").value = "";
     setConnection("唯讀模式", "neutral");
+    renderSongEditor();
   }
 
   function validateSong(song) {
