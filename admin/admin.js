@@ -595,9 +595,7 @@
         ref: repository.branch,
         cacheBust: String(Date.now())
       });
-      return await githubRequest(`${contentsUrl(path)}?${query}`, {
-        headers: { "Cache-Control": "no-cache" }
-      });
+      return await githubRequest(`${contentsUrl(path)}?${query}`);
     } catch (error) {
       if (String(error.message).includes("Not Found")) return null;
       throw error;
