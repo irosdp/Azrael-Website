@@ -1,5 +1,216 @@
 {
   "version": 1,
-  "updatedAt": "",
-  "songs": {}
+  "updatedAt": "2026-07-11T15:05:42Z",
+  "songs": {
+    "tokikase-kaitai": {
+      "requestId": "2026-07-11T15:05:32.463Z",
+      "status": "ready",
+      "completedAt": "2026-07-11T15:05:42Z",
+      "query": {
+        "title": "時枷解体",
+        "artist": "Azrael Morathane",
+        "releaseDate": "2026-06-25",
+        "isrc": ""
+      },
+      "providerStatus": {
+        "appleMusic": "ok",
+        "spotify": "由管理者手動更新",
+        "youtube": "ok",
+        "youtubeMusic": "ok",
+        "hyperfollow": "需由管理者手動提供",
+        "amazonMusic": "目前保留人工確認"
+      },
+      "providers": {
+        "appleMusic": [
+          {
+            "id": "6782365895",
+            "url": "https://music.apple.com/us/album/%E6%99%82%E6%9E%B7%E8%A7%A3%E4%BD%93/6782365894?i=6782365895&uo=4",
+            "embedUrl": "https://embed.music.apple.com/us/album/%E6%99%82%E6%9E%B7%E8%A7%A3%E4%BD%93/6782365894?i=6782365895&uo=4",
+            "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b2/4a/69/b24a691f-7df1-1896-8a33-3cb5562e198a/mzaf_10217570044999292803.plus.aac.p.m4a",
+            "title": "時枷解体",
+            "artist": "Azrael Morathane",
+            "album": "時枷解体 - EP",
+            "releaseDate": "2026-06-25T12:00:00Z",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/10/90/71/10907154-73f6-2fe9-9ea4-638c4cf09b68/artwork.jpg/600x600bb.jpg",
+            "source": "Apple iTunes Search API",
+            "confidence": 0.95,
+            "matchNotes": "歌名完全相符、藝人完全相符、發售日相符"
+          },
+          {
+            "id": "6779475440",
+            "url": "https://music.apple.com/us/album/%E6%99%82%E6%9E%B7%E8%A7%A3%E4%BD%93/6779475439?i=6779475440&uo=4",
+            "embedUrl": "https://embed.music.apple.com/us/album/%E6%99%82%E6%9E%B7%E8%A7%A3%E4%BD%93/6779475439?i=6779475440&uo=4",
+            "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a1/f2/cd/a1f2cdb7-6190-132a-cb67-48e22d1fc466/mzaf_4680440005027014838.plus.aac.p.m4a",
+            "title": "時枷解体",
+            "artist": "Azrael Morathane",
+            "album": "時枷解体 - Single",
+            "releaseDate": "2026-06-25T12:00:00Z",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/74/76/6b/74766ba6-5427-e2e9-d640-068b47b367fb/artwork.jpg/600x600bb.jpg",
+            "source": "Apple iTunes Search API",
+            "confidence": 0.95,
+            "matchNotes": "歌名完全相符、藝人完全相符、發售日相符"
+          },
+          {
+            "id": "6782365896",
+            "url": "https://music.apple.com/us/album/%E6%9C%88%E5%BD%B1%E3%81%AB%E6%BA%BA%E3%82%8C%E3%81%A6/6782365894?i=6782365896&uo=4",
+            "embedUrl": "https://embed.music.apple.com/us/album/%E6%9C%88%E5%BD%B1%E3%81%AB%E6%BA%BA%E3%82%8C%E3%81%A6/6782365894?i=6782365896&uo=4",
+            "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e3/ce/ed/e3ceed8c-300e-cb71-2856-ed31ce25a144/mzaf_4297563874811511436.plus.aac.p.m4a",
+            "title": "月影に溺れて",
+            "artist": "Azrael Morathane",
+            "album": "時枷解体 - EP",
+            "releaseDate": "2026-07-01T12:00:00Z",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/10/90/71/10907154-73f6-2fe9-9ea4-638c4cf09b68/artwork.jpg/600x600bb.jpg",
+            "source": "Apple iTunes Search API",
+            "confidence": 0.35,
+            "matchNotes": "歌名需要人工確認、藝人完全相符、發售日在一週內"
+          },
+          {
+            "id": "6782365897",
+            "url": "https://music.apple.com/us/album/%E8%9D%8B%E7%87%AD%E3%81%AE%E7%81%B0%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%BE%E3%81%A7/6782365894?i=6782365897&uo=4",
+            "embedUrl": "https://embed.music.apple.com/us/album/%E8%9D%8B%E7%87%AD%E3%81%AE%E7%81%B0%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%BE%E3%81%A7/6782365894?i=6782365897&uo=4",
+            "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5e/3a/6f/5e3a6fd2-d1bb-8e2e-2857-156840a7def3/mzaf_6766944621108313062.plus.aac.p.m4a",
+            "title": "蝋燭の灰になるまで",
+            "artist": "Azrael Morathane",
+            "album": "時枷解体 - EP",
+            "releaseDate": "2026-07-02T12:00:00Z",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/10/90/71/10907154-73f6-2fe9-9ea4-638c4cf09b68/artwork.jpg/600x600bb.jpg",
+            "source": "Apple iTunes Search API",
+            "confidence": 0.35,
+            "matchNotes": "歌名需要人工確認、藝人完全相符、發售日在一週內"
+          },
+          {
+            "id": "6782365898",
+            "url": "https://music.apple.com/us/album/%E9%BB%92%E7%B4%85%E5%90%8D%E6%9C%AD%E3%82%92%E5%89%A5%E3%81%8C%E3%81%99/6782365894?i=6782365898&uo=4",
+            "embedUrl": "https://embed.music.apple.com/us/album/%E9%BB%92%E7%B4%85%E5%90%8D%E6%9C%AD%E3%82%92%E5%89%A5%E3%81%8C%E3%81%99/6782365894?i=6782365898&uo=4",
+            "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bf/8e/9e/bf8e9ef5-4521-97f3-e2a5-b77b97136129/mzaf_8247094318071711159.plus.aac.p.m4a",
+            "title": "黒紅名札を剥がす",
+            "artist": "Azrael Morathane",
+            "album": "時枷解体 - EP",
+            "releaseDate": "2026-07-06T12:00:00Z",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/10/90/71/10907154-73f6-2fe9-9ea4-638c4cf09b68/artwork.jpg/600x600bb.jpg",
+            "source": "Apple iTunes Search API",
+            "confidence": 0.28,
+            "matchNotes": "歌名需要人工確認、藝人完全相符"
+          }
+        ],
+        "spotify": [],
+        "youtube": [
+          {
+            "id": "myuqts2Iho4",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/myuqts2Iho4",
+            "previewUrl": "",
+            "title": "時枷解体",
+            "artist": "Azrael Morathane - Topic",
+            "album": "",
+            "releaseDate": "2026-06-24T10:03:17Z",
+            "artwork": "https://i.ytimg.com/vi/myuqts2Iho4/hqdefault.jpg",
+            "source": "YouTube Data API",
+            "url": "https://youtu.be/myuqts2Iho4",
+            "confidence": 0.82,
+            "matchNotes": "歌名完全相符、藝人名稱相符、發售日在一週內"
+          },
+          {
+            "id": "Iy7Lu1pY61M",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/Iy7Lu1pY61M",
+            "previewUrl": "",
+            "title": "Azrael Morathane「時枷解体」Out Now #gothicmetal #metalcore #newmusic #jcore",
+            "artist": "Azrael Morathane",
+            "album": "",
+            "releaseDate": "2026-06-25T04:08:14Z",
+            "artwork": "https://i.ytimg.com/vi/Iy7Lu1pY61M/hqdefault.jpg",
+            "source": "YouTube Data API",
+            "url": "https://youtu.be/Iy7Lu1pY61M",
+            "confidence": 0.78,
+            "matchNotes": "歌名高度相符、藝人完全相符、發售日相符"
+          },
+          {
+            "id": "XDJmFbuwSCM",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/XDJmFbuwSCM",
+            "previewUrl": "",
+            "title": "Azrael Morathane「時枷解体」I don’t need the past or future",
+            "artist": "Azrael Morathane",
+            "album": "",
+            "releaseDate": "2026-06-26T06:08:04Z",
+            "artwork": "https://i.ytimg.com/vi/XDJmFbuwSCM/hqdefault.jpg",
+            "source": "YouTube Data API",
+            "url": "https://youtu.be/XDJmFbuwSCM",
+            "confidence": 0.73,
+            "matchNotes": "歌名高度相符、藝人完全相符、發售日在一週內"
+          },
+          {
+            "id": "6FGOdreSRGM",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/6FGOdreSRGM",
+            "previewUrl": "",
+            "title": "Azrael Morathane「時枷解体」Official Visualizer MV",
+            "artist": "Azrael Morathane",
+            "album": "",
+            "releaseDate": "2026-06-26T03:00:06Z",
+            "artwork": "https://i.ytimg.com/vi/6FGOdreSRGM/hqdefault.jpg",
+            "source": "YouTube Data API",
+            "url": "https://youtu.be/6FGOdreSRGM",
+            "confidence": 0.73,
+            "matchNotes": "歌名高度相符、藝人完全相符、發售日在一週內"
+          }
+        ],
+        "youtubeMusic": [
+          {
+            "id": "myuqts2Iho4",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/myuqts2Iho4",
+            "previewUrl": "",
+            "title": "時枷解体",
+            "artist": "Azrael Morathane - Topic",
+            "album": "",
+            "releaseDate": "2026-06-24T10:03:17Z",
+            "artwork": "https://i.ytimg.com/vi/myuqts2Iho4/hqdefault.jpg",
+            "source": "YouTube Data API",
+            "url": "https://music.youtube.com/watch?v=myuqts2Iho4",
+            "confidence": 0.82,
+            "matchNotes": "歌名完全相符、藝人名稱相符、發售日在一週內"
+          },
+          {
+            "id": "Iy7Lu1pY61M",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/Iy7Lu1pY61M",
+            "previewUrl": "",
+            "title": "Azrael Morathane「時枷解体」Out Now #gothicmetal #metalcore #newmusic #jcore",
+            "artist": "Azrael Morathane",
+            "album": "",
+            "releaseDate": "2026-06-25T04:08:14Z",
+            "artwork": "https://i.ytimg.com/vi/Iy7Lu1pY61M/hqdefault.jpg",
+            "source": "YouTube Data API",
+            "url": "https://music.youtube.com/watch?v=Iy7Lu1pY61M",
+            "confidence": 0.78,
+            "matchNotes": "歌名高度相符、藝人完全相符、發售日相符"
+          },
+          {
+            "id": "XDJmFbuwSCM",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/XDJmFbuwSCM",
+            "previewUrl": "",
+            "title": "Azrael Morathane「時枷解体」I don’t need the past or future",
+            "artist": "Azrael Morathane",
+            "album": "",
+            "releaseDate": "2026-06-26T06:08:04Z",
+            "artwork": "https://i.ytimg.com/vi/XDJmFbuwSCM/hqdefault.jpg",
+            "source": "YouTube Data API",
+            "url": "https://music.youtube.com/watch?v=XDJmFbuwSCM",
+            "confidence": 0.73,
+            "matchNotes": "歌名高度相符、藝人完全相符、發售日在一週內"
+          },
+          {
+            "id": "6FGOdreSRGM",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/6FGOdreSRGM",
+            "previewUrl": "",
+            "title": "Azrael Morathane「時枷解体」Official Visualizer MV",
+            "artist": "Azrael Morathane",
+            "album": "",
+            "releaseDate": "2026-06-26T03:00:06Z",
+            "artwork": "https://i.ytimg.com/vi/6FGOdreSRGM/hqdefault.jpg",
+            "source": "YouTube Data API",
+            "url": "https://music.youtube.com/watch?v=6FGOdreSRGM",
+            "confidence": 0.73,
+            "matchNotes": "歌名高度相符、藝人完全相符、發售日在一週內"
+          }
+        ]
+      }
+    }
+  }
 }
