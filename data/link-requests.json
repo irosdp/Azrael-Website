@@ -16,6 +16,13 @@
       "requestedBy": "irosdp",
       "status": "ready",
       "completedAt": "2026-07-11T15:17:09Z"
+    },
+    "ori-no-soto-wa-anata": {
+      "requestId": "2026-07-13T15:59:31.713Z",
+      "slug": "ori-no-soto-wa-anata",
+      "requestedAt": "2026-07-13T15:59:31.713Z",
+      "requestedBy": "codex",
+      "status": "pending"
     }
   }
 }
