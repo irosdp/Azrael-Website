@@ -405,7 +405,7 @@
   }
   function renderHome(config, songs) {
     const releaseOrder = sortSongs(songs);
-    const latest = songs.find((song) => song.slug === config.latestReleaseSlug) || releaseOrder[0];
+    const latest = releasedSongs(songs)[0] || songs.find((song) => song.slug === config.latestReleaseSlug) || releaseOrder[0];
     if (!latest) return;
 
     updateMeta(tr("meta.homeTitle"), tr("meta.homeDescription"), "assets/images/brand/azrael-stage-hero.png");
