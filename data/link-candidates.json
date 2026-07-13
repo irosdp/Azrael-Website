@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-11T15:17:09Z",
+  "updatedAt": "2026-07-13T16:01:26Z",
   "songs": {
     "tokikase-kaitai": {
       "requestId": "2026-07-11T15:05:32.463Z",
@@ -332,6 +332,118 @@
             "artwork": "https://i.ytimg.com/vi/kBFw5ErMuZQ/hqdefault.jpg",
             "source": "YouTube Data API",
             "url": "https://music.youtube.com/watch?v=kBFw5ErMuZQ",
+            "confidence": 0.82,
+            "matchNotes": "歌名完全相符、藝人名稱相符、發售日在一週內"
+          }
+        ]
+      }
+    },
+    "ori-no-soto-wa-anata": {
+      "requestId": "2026-07-13T15:59:31.713Z",
+      "status": "ready",
+      "completedAt": "2026-07-13T16:01:26Z",
+      "query": {
+        "title": "檻の外はあなた",
+        "artist": "Azrael Morathane",
+        "releaseDate": "2026-07-13",
+        "isrc": ""
+      },
+      "providerStatus": {
+        "appleMusic": "ok",
+        "spotify": "由管理者手動更新",
+        "youtube": "ok",
+        "youtubeMusic": "ok",
+        "hyperfollow": "需由管理者手動提供",
+        "amazonMusic": "目前保留人工確認"
+      },
+      "providers": {
+        "appleMusic": [
+          {
+            "id": "6786147005",
+            "url": "https://music.apple.com/us/album/%E6%AA%BB%E3%81%AE%E5%A4%96%E3%81%AF%E3%81%82%E3%81%AA%E3%81%9F/6786147004?i=6786147005&uo=4",
+            "embedUrl": "https://embed.music.apple.com/us/album/%E6%AA%BB%E3%81%AE%E5%A4%96%E3%81%AF%E3%81%82%E3%81%AA%E3%81%9F/6786147004?i=6786147005&uo=4",
+            "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/34/19/c4/3419c4b9-4bce-9569-81c7-613a420d09f0/mzaf_8699468918945714367.plus.aac.p.m4a",
+            "title": "檻の外はあなた",
+            "artist": "Azrael Morathane",
+            "album": "檻の外はあなた - Single",
+            "releaseDate": "2026-07-13T12:00:00Z",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/db/57/39/db5739b5-2992-3321-eb53-2e656123932d/artwork.jpg/600x600bb.jpg",
+            "source": "Apple iTunes Search API",
+            "confidence": 0.95,
+            "matchNotes": "歌名完全相符、藝人完全相符、發售日相符"
+          },
+          {
+            "id": "6784108380",
+            "url": "https://music.apple.com/us/album/%E9%A3%A2%E9%A4%93%E3%81%AE%E6%AA%BB/6784108379?i=6784108380&uo=4",
+            "embedUrl": "https://embed.music.apple.com/us/album/%E9%A3%A2%E9%A4%93%E3%81%AE%E6%AA%BB/6784108379?i=6784108380&uo=4",
+            "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/33/84/fa/3384fae8-19f1-12ef-3e43-510abfcd5a75/mzaf_8666976892654039272.plus.aac.p.m4a",
+            "title": "飢餓の檻",
+            "artist": "Azrael Morathane",
+            "album": "飢餓の檻 - Single",
+            "releaseDate": "2026-07-08T12:00:00Z",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6c/e9/35/6ce93584-cc26-f9f3-66dc-19d32a357aec/artwork.jpg/600x600bb.jpg",
+            "source": "Apple iTunes Search API",
+            "confidence": 0.413,
+            "matchNotes": "歌名需要人工確認、藝人完全相符、發售日在一週內"
+          },
+          {
+            "id": "6782365895",
+            "url": "https://music.apple.com/us/album/%E6%99%82%E6%9E%B7%E8%A7%A3%E4%BD%93/6782365894?i=6782365895&uo=4",
+            "embedUrl": "https://embed.music.apple.com/us/album/%E6%99%82%E6%9E%B7%E8%A7%A3%E4%BD%93/6782365894?i=6782365895&uo=4",
+            "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b2/4a/69/b24a691f-7df1-1896-8a33-3cb5562e198a/mzaf_10217570044999292803.plus.aac.p.m4a",
+            "title": "時枷解体",
+            "artist": "Azrael Morathane",
+            "album": "時枷解体 - EP",
+            "releaseDate": "2026-06-25T12:00:00Z",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/10/90/71/10907154-73f6-2fe9-9ea4-638c4cf09b68/artwork.jpg/600x600bb.jpg",
+            "source": "Apple iTunes Search API",
+            "confidence": 0.28,
+            "matchNotes": "歌名需要人工確認、藝人完全相符"
+          },
+          {
+            "id": "6779475440",
+            "url": "https://music.apple.com/us/album/%E6%99%82%E6%9E%B7%E8%A7%A3%E4%BD%93/6779475439?i=6779475440&uo=4",
+            "embedUrl": "https://embed.music.apple.com/us/album/%E6%99%82%E6%9E%B7%E8%A7%A3%E4%BD%93/6779475439?i=6779475440&uo=4",
+            "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a1/f2/cd/a1f2cdb7-6190-132a-cb67-48e22d1fc466/mzaf_4680440005027014838.plus.aac.p.m4a",
+            "title": "時枷解体",
+            "artist": "Azrael Morathane",
+            "album": "時枷解体 - Single",
+            "releaseDate": "2026-06-25T12:00:00Z",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/74/76/6b/74766ba6-5427-e2e9-d640-068b47b367fb/artwork.jpg/600x600bb.jpg",
+            "source": "Apple iTunes Search API",
+            "confidence": 0.28,
+            "matchNotes": "歌名需要人工確認、藝人完全相符"
+          }
+        ],
+        "spotify": [],
+        "youtube": [
+          {
+            "id": "jjntQDezD7c",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/jjntQDezD7c",
+            "previewUrl": "",
+            "title": "檻の外はあなた",
+            "artist": "Azrael Morathane - Topic",
+            "album": "",
+            "releaseDate": "2026-07-12T10:03:12Z",
+            "artwork": "https://i.ytimg.com/vi/jjntQDezD7c/hqdefault.jpg",
+            "source": "YouTube Data API",
+            "url": "https://youtu.be/jjntQDezD7c",
+            "confidence": 0.82,
+            "matchNotes": "歌名完全相符、藝人名稱相符、發售日在一週內"
+          }
+        ],
+        "youtubeMusic": [
+          {
+            "id": "jjntQDezD7c",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/jjntQDezD7c",
+            "previewUrl": "",
+            "title": "檻の外はあなた",
+            "artist": "Azrael Morathane - Topic",
+            "album": "",
+            "releaseDate": "2026-07-12T10:03:12Z",
+            "artwork": "https://i.ytimg.com/vi/jjntQDezD7c/hqdefault.jpg",
+            "source": "YouTube Data API",
+            "url": "https://music.youtube.com/watch?v=jjntQDezD7c",
             "confidence": 0.82,
             "matchNotes": "歌名完全相符、藝人名稱相符、發售日在一週內"
           }
