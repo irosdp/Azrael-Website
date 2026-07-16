@@ -129,8 +129,15 @@
   }
 
   function sortSongs(songs, direction = "asc") {
-    const sorted = [...songs].sort((a, b) => a.releaseDate.localeCompare(b.releaseDate));
-    return direction === "desc" ? sorted.reverse() : sorted;
+    const sorted = [...songs].sort((a, b) => {
+      if (!a.releaseDate && !b.releaseDate) return 0;
+      if (!a.releaseDate) return 1;
+      if (!b.releaseDate) return -1;
+      return a.releaseDate.localeCompare(b.releaseDate);
+    });
+    if (direction !== "desc") return sorted;
+    const dated = sorted.filter((song) => song.releaseDate).reverse();
+    return [...dated, ...sorted.filter((song) => !song.releaseDate)];
   }
   function todayKey() {
     const parts = new Intl.DateTimeFormat("en-CA", {
@@ -145,7 +152,7 @@
 
   function releasedSongs(songs) {
     const today = todayKey();
-    const released = songs.filter((song) => !song.releaseDate || song.releaseDate <= today);
+    const released = songs.filter((song) => song.releaseDate && song.releaseDate <= today);
     return sortSongs(released.length ? released : songs, "desc");
   }
   function youtubeUrlFor(song) {
