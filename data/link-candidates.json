@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-13T16:01:26Z",
+  "updatedAt": "2026-07-16T07:40:20Z",
   "songs": {
     "tokikase-kaitai": {
       "requestId": "2026-07-11T15:05:32.463Z",
@@ -444,6 +444,104 @@
             "artwork": "https://i.ytimg.com/vi/jjntQDezD7c/hqdefault.jpg",
             "source": "YouTube Data API",
             "url": "https://music.youtube.com/watch?v=jjntQDezD7c",
+            "confidence": 0.82,
+            "matchNotes": "歌名完全相符、藝人名稱相符、發售日在一週內"
+          }
+        ]
+      }
+    },
+    "tomodachi-no-ondo": {
+      "requestId": "2026-07-16T00:00:00.000Z",
+      "status": "ready",
+      "completedAt": "2026-07-16T07:40:20Z",
+      "query": {
+        "title": "友達のキス未満",
+        "artist": "Azrael Morathane",
+        "releaseDate": "2026-07-12",
+        "isrc": ""
+      },
+      "providerStatus": {
+        "appleMusic": "ok",
+        "spotify": "由管理者手動更新",
+        "youtube": "ok",
+        "youtubeMusic": "ok",
+        "hyperfollow": "需由管理者手動提供",
+        "amazonMusic": "目前保留人工確認"
+      },
+      "providers": {
+        "appleMusic": [
+          {
+            "id": "6786125813",
+            "url": "https://music.apple.com/us/album/%E5%8F%8B%E9%81%94%E3%81%AE%E3%82%AD%E3%82%B9%E6%9C%AA%E6%BA%80/6786125812?i=6786125813&uo=4",
+            "embedUrl": "https://embed.music.apple.com/us/album/%E5%8F%8B%E9%81%94%E3%81%AE%E3%82%AD%E3%82%B9%E6%9C%AA%E6%BA%80/6786125812?i=6786125813&uo=4",
+            "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/81/49/8d/81498d72-bb39-a9ae-6575-17c716a6b48d/mzaf_7637850996819844349.plus.aac.p.m4a",
+            "title": "友達のキス未満",
+            "artist": "Azrael Morathane",
+            "album": "友達のキス未満 - Single",
+            "releaseDate": "2026-07-12T12:00:00Z",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/63/cb/2a/63cb2a8a-ad68-b816-39a7-334d67750eae/artwork.jpg/600x600bb.jpg",
+            "source": "Apple iTunes Search API",
+            "confidence": 0.95,
+            "matchNotes": "歌名完全相符、藝人完全相符、發售日相符"
+          },
+          {
+            "id": "6779475440",
+            "url": "https://music.apple.com/us/album/%E6%99%82%E6%9E%B7%E8%A7%A3%E4%BD%93/6779475439?i=6779475440&uo=4",
+            "embedUrl": "https://embed.music.apple.com/us/album/%E6%99%82%E6%9E%B7%E8%A7%A3%E4%BD%93/6779475439?i=6779475440&uo=4",
+            "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a1/f2/cd/a1f2cdb7-6190-132a-cb67-48e22d1fc466/mzaf_4680440005027014838.plus.aac.p.m4a",
+            "title": "時枷解体",
+            "artist": "Azrael Morathane",
+            "album": "時枷解体 - Single",
+            "releaseDate": "2026-06-25T12:00:00Z",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/74/76/6b/74766ba6-5427-e2e9-d640-068b47b367fb/artwork.jpg/600x600bb.jpg",
+            "source": "Apple iTunes Search API",
+            "confidence": 0.28,
+            "matchNotes": "歌名需要人工確認、藝人完全相符"
+          },
+          {
+            "id": "6782365895",
+            "url": "https://music.apple.com/us/album/%E6%99%82%E6%9E%B7%E8%A7%A3%E4%BD%93/6782365894?i=6782365895&uo=4",
+            "embedUrl": "https://embed.music.apple.com/us/album/%E6%99%82%E6%9E%B7%E8%A7%A3%E4%BD%93/6782365894?i=6782365895&uo=4",
+            "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b2/4a/69/b24a691f-7df1-1896-8a33-3cb5562e198a/mzaf_10217570044999292803.plus.aac.p.m4a",
+            "title": "時枷解体",
+            "artist": "Azrael Morathane",
+            "album": "時枷解体 - EP",
+            "releaseDate": "2026-06-25T12:00:00Z",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/10/90/71/10907154-73f6-2fe9-9ea4-638c4cf09b68/artwork.jpg/600x600bb.jpg",
+            "source": "Apple iTunes Search API",
+            "confidence": 0.28,
+            "matchNotes": "歌名需要人工確認、藝人完全相符"
+          }
+        ],
+        "spotify": [],
+        "youtube": [
+          {
+            "id": "B7rfAQOMiZ0",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/B7rfAQOMiZ0",
+            "previewUrl": "",
+            "title": "友達のキス未満",
+            "artist": "Azrael Morathane - Topic",
+            "album": "",
+            "releaseDate": "2026-07-11T10:01:19Z",
+            "artwork": "https://i.ytimg.com/vi/B7rfAQOMiZ0/hqdefault.jpg",
+            "source": "YouTube Data API",
+            "url": "https://youtu.be/B7rfAQOMiZ0",
+            "confidence": 0.82,
+            "matchNotes": "歌名完全相符、藝人名稱相符、發售日在一週內"
+          }
+        ],
+        "youtubeMusic": [
+          {
+            "id": "B7rfAQOMiZ0",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/B7rfAQOMiZ0",
+            "previewUrl": "",
+            "title": "友達のキス未満",
+            "artist": "Azrael Morathane - Topic",
+            "album": "",
+            "releaseDate": "2026-07-11T10:01:19Z",
+            "artwork": "https://i.ytimg.com/vi/B7rfAQOMiZ0/hqdefault.jpg",
+            "source": "YouTube Data API",
+            "url": "https://music.youtube.com/watch?v=B7rfAQOMiZ0",
             "confidence": 0.82,
             "matchNotes": "歌名完全相符、藝人名稱相符、發售日在一週內"
           }

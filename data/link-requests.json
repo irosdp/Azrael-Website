@@ -30,7 +30,8 @@
       "slug": "tomodachi-no-ondo",
       "requestedAt": "2026-07-16T00:00:00.000Z",
       "requestedBy": "codex",
-      "status": "requested"
+      "status": "ready",
+      "completedAt": "2026-07-16T07:40:20Z"
     }
   }
 }
